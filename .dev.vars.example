@@ -1,6 +1,4 @@
 TELEGRAM_BOT_TOKEN=replace_me
-TELEGRAM_CHANNEL_ID=@replace_me
 TELEGRAM_WEBHOOK_SECRET=replace_with_random_string
 SYNC_SECRET=replace_with_another_random_string
 GITHUB_TOKEN=optional_for_public_repo
-

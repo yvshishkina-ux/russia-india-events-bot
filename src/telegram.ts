@@ -1,15 +1,21 @@
 import { activeEvents, visibleEvents } from "./catalog";
-import { categoryMenu, formatCard, mainMenu, monthMenu, pageMenu, type InlineKeyboard } from "./format";
+import { categoryMenu, cityMenu, cityToken, formatCard, geographyMenu, mainMenu, monthMenu, pageMenu, type InlineKeyboard } from "./format";
 import type { Category, Event, Geography, TelegramUpdate } from "./types";
 
 type ApiResult = { ok?: boolean; description?: string };
+
+export class TelegramApiError extends Error {
+  constructor(public status: number, description: string) {
+    super(`Telegram API: ${description}`);
+  }
+}
 
 async function request(env: Env, method: string, payload: Record<string, unknown>): Promise<void> {
   const response = await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/${method}`, {
     method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload),
   });
   const result = await response.json() as ApiResult;
-  if (!response.ok || !result.ok) throw new Error(`Telegram ${method}: ${result.description ?? response.status}`);
+  if (!response.ok || !result.ok) throw new TelegramApiError(response.status, result.description ?? String(response.status));
 }
 
 export async function sendMessage(env: Env, chatId: string, text: string, keyboard?: InlineKeyboard): Promise<void> {
@@ -41,8 +47,24 @@ async function showPage(env: Env, chatId: string, events: Event[], prefix: strin
 export async function handleUpdate(env: Env, update: TelegramUpdate, events: Event[]): Promise<void> {
   const message = update.message;
   if (message) {
-    await sendMessage(env, String(message.chat.id),
-      "<b>Россия × Индия | События</b>\n\nВыберите раздел календаря:", mainMenu());
+    const chatId = String(message.chat.id);
+    const command = (message.text ?? "").trim().split(/\s+/, 1)[0]?.toLocaleLowerCase("ru-RU");
+    if (command === "/stop") {
+      await env.DB.prepare(
+        "UPDATE subscribers SET active = 0, unsubscribed_at = CURRENT_TIMESTAMP, last_seen_at = CURRENT_TIMESTAMP WHERE chat_id = ?",
+      ).bind(chatId).run();
+      await sendMessage(env, chatId,
+        "Рассылка остановлена. Каталог останется доступен; чтобы снова получать новые события, отправьте /start.");
+      return;
+    }
+    if (command === "/start") {
+      await env.DB.prepare(
+        `INSERT INTO subscribers (chat_id) VALUES (?)
+         ON CONFLICT(chat_id) DO UPDATE SET active = 1, unsubscribed_at = NULL, last_seen_at = CURRENT_TIMESTAMP`,
+      ).bind(chatId).run();
+    }
+    await sendMessage(env, chatId,
+      "<b>Индия: бизнес и события</b>\n\nДеловые мероприятия в Индии и события индийской тематики в России. Новые и существенно изменённые события будут приходить сюда автоматически.\n\nВыберите раздел:", mainMenu());
     return;
   }
   const query = update.callback_query;
@@ -51,8 +73,14 @@ export async function handleUpdate(env: Env, update: TelegramUpdate, events: Eve
   await answerCallback(env, query.id);
   const data = query.data ?? "";
   if (data === "home") return sendMessage(env, String(chatId), "Выберите раздел календаря:", mainMenu());
-  if (data === "geo:RU") return sendMessage(env, String(chatId), "Выберите категорию:", categoryMenu());
-  if (data === "geo:IN") return sendMessage(env, String(chatId), "Выберите месяц:", monthMenu(activeEvents(events), "IN"));
+  if (data === "geo:RU") return sendMessage(env, String(chatId), "Индийская тематика в России:", geographyMenu("RU"));
+  if (data === "geo:IN") return sendMessage(env, String(chatId), "Деловые мероприятия в Индии:", geographyMenu("IN"));
+  if (data === "categories:RU") return sendMessage(env, String(chatId), "Выберите категорию:", categoryMenu());
+  if (data.startsWith("cities:")) {
+    const geography = data.split(":")[1];
+    if (!geography || !validGeo(geography)) return;
+    return sendMessage(env, String(chatId), "Выберите город:", cityMenu(activeEvents(events), geography));
+  }
   if (data === "soon") return showPage(env, String(chatId), activeEvents(events).slice(0, 24), "soon", 0);
   if (data.startsWith("soon:")) {
     const page = Number(data.split(":")[1] ?? "0");
@@ -84,5 +112,14 @@ export async function handleUpdate(env: Env, update: TelegramUpdate, events: Eve
     const page = Math.max(0, Number.parseInt(rawPage ?? "0", 10) || 0);
     const prefix = `list:${geo}:${rawCategory}:${month}`;
     return showPage(env, String(chatId), visibleEvents(events, { geography: geo, category, month }), prefix, page);
+  }
+  if (data.startsWith("city:")) {
+    const [, geo, token, rawPage] = data.split(":");
+    if (!geo || !validGeo(geo) || !token) return;
+    const city = [...new Set(activeEvents(events).filter((event) => event.geography === geo).map((event) => event.city))]
+      .find((item) => cityToken(item) === token);
+    if (!city) return sendMessage(env, String(chatId), "Список городов обновился. Выберите город ещё раз:", cityMenu(activeEvents(events), geo));
+    const page = Math.max(0, Number.parseInt(rawPage ?? "0", 10) || 0);
+    return showPage(env, String(chatId), visibleEvents(events, { geography: geo, city }), `city:${geo}:${token}`, page);
   }
 }

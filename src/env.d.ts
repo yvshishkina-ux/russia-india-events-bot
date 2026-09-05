@@ -2,10 +2,15 @@ interface D1Result {
   meta: { changes?: number };
 }
 
+interface D1Results<T> {
+  results: T[];
+}
+
 interface D1PreparedStatement {
   bind(...values: unknown[]): D1PreparedStatement;
   run(): Promise<D1Result>;
   first<T = Record<string, unknown>>(): Promise<T | null>;
+  all<T = Record<string, unknown>>(): Promise<D1Results<T>>;
 }
 
 interface D1Database {
@@ -28,7 +33,6 @@ interface Env {
   RECENT_DAYS: string;
   PAGE_SIZE: string;
   TELEGRAM_BOT_TOKEN: string;
-  TELEGRAM_CHANNEL_ID: string;
   TELEGRAM_WEBHOOK_SECRET: string;
   SYNC_SECRET: string;
   GITHUB_TOKEN?: string;

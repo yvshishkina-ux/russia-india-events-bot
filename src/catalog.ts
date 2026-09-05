@@ -12,13 +12,14 @@ export function activeEvents(events: Event[], today = todayInMoscow()): Event[] 
 
 export function visibleEvents(
   events: Event[],
-  filter: { geography?: Geography; category?: Category; month?: string },
+  filter: { geography?: Geography; category?: Category; month?: string; city?: string },
   today = todayInMoscow(),
 ): Event[] {
   return activeEvents(events, today).filter((event) =>
     (!filter.geography || event.geography === filter.geography) &&
     (!filter.category || event.category === filter.category) &&
-    (!filter.month || event.start_date.slice(0, 7) === filter.month),
+    (!filter.month || event.start_date.slice(0, 7) === filter.month) &&
+    (!filter.city || event.city === filter.city),
   );
 }
 

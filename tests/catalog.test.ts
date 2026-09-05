@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { activeEvents, significantMaterial, visibleEvents } from "../src/catalog.ts";
+import { cityToken } from "../src/format.ts";
 import { parseEventsRegistry, type Event } from "../src/types.ts";
 
 const event: Event = {
@@ -32,6 +33,13 @@ test("only end date decides whether a scheduled event is still active", () => {
 test("catalog filters geography, category, and start month", () => {
   assert.equal(visibleEvents([event], { geography: "RU", category: "business", month: "2026-10" }, "2026-09-05").length, 1);
   assert.equal(visibleEvents([event], { geography: "IN" }, "2026-09-05").length, 0);
+});
+
+test("catalog filters by city and city callback token is deterministic", () => {
+  assert.equal(visibleEvents([event], { geography: "RU", city: "Казань" }, "2026-09-05").length, 1);
+  assert.equal(visibleEvents([event], { geography: "RU", city: "Москва" }, "2026-09-05").length, 0);
+  assert.equal(cityToken("Москва"), cityToken("МОСКВА"));
+  assert.notEqual(cityToken("Москва"), cityToken("Казань"));
 });
 
 test("significant comparison ignores description but includes date city status and official url", () => {

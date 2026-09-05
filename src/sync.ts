@@ -1,11 +1,12 @@
 import { significantFingerprint, todayInMoscow } from "./catalog";
 import { formatCard } from "./format";
 import { loadArchive, loadEvents } from "./github";
-import { sendMessage } from "./telegram";
+import { sendMessage, TelegramApiError } from "./telegram";
 import type { Event } from "./types";
 
 type Mode = "bootstrap" | "monitor" | "scheduled";
 type StateRow = { significant_fingerprint: string };
+type SubscriberRow = { chat_id: string };
 
 async function reserve(env: Env, event: Event, fingerprint: string, kind: "new" | "updated"): Promise<string | null> {
   const id = `${event.id}:${fingerprint.slice(0, 20)}`;
@@ -64,18 +65,40 @@ export async function sync(env: Env, mode: Mode): Promise<{ events: number; new:
     if (kind) {
       const publicationId = await reserve(env, event, fingerprint, kind);
       if (publicationId) {
-        try {
-          await sendMessage(env, env.TELEGRAM_CHANNEL_ID, formatCard(event, kind));
-          await env.DB.prepare(
-            "UPDATE published_versions SET status = 'sent', sent_at = CURRENT_TIMESTAMP WHERE publication_id = ?",
-          ).bind(publicationId).run();
-          published += 1;
-        } catch (error) {
+        const subscribers = await env.DB.prepare(
+          "SELECT chat_id FROM subscribers WHERE active = 1 ORDER BY subscribed_at",
+        ).all<SubscriberRow>();
+        const failures: string[] = [];
+        for (const subscriber of subscribers.results) {
+          const delivered = await env.DB.prepare(
+            "SELECT chat_id FROM notification_deliveries WHERE publication_id = ? AND chat_id = ?",
+          ).bind(publicationId, subscriber.chat_id).first<{ chat_id: string }>();
+          if (delivered) continue;
+          try {
+            await sendMessage(env, subscriber.chat_id, formatCard(event, kind));
+            await env.DB.prepare(
+              "INSERT OR IGNORE INTO notification_deliveries (publication_id, chat_id) VALUES (?, ?)",
+            ).bind(publicationId, subscriber.chat_id).run();
+          } catch (error) {
+            if (error instanceof TelegramApiError && (error.status === 403 || /blocked|chat not found/i.test(error.message))) {
+              await env.DB.prepare(
+                "UPDATE subscribers SET active = 0, unsubscribed_at = CURRENT_TIMESTAMP WHERE chat_id = ?",
+              ).bind(subscriber.chat_id).run();
+              continue;
+            }
+            failures.push(String(error).slice(0, 300));
+          }
+        }
+        if (failures.length) {
           await env.DB.prepare(
             "UPDATE published_versions SET status = 'failed', error = ? WHERE publication_id = ?",
-          ).bind(String(error).slice(0, 500), publicationId).run();
-          throw error;
+          ).bind(failures.join(" | ").slice(0, 500), publicationId).run();
+          throw new Error(`Notification delivery failed for ${failures.length} subscriber(s)`);
         }
+        await env.DB.prepare(
+          "UPDATE published_versions SET status = 'sent', sent_at = CURRENT_TIMESTAMP, error = NULL WHERE publication_id = ?",
+        ).bind(publicationId).run();
+        published += 1;
       }
     }
     await env.DB.prepare(
