@@ -6,7 +6,15 @@ import type { Event } from "./types";
 
 type Mode = "bootstrap" | "monitor" | "scheduled";
 type StateRow = { significant_fingerprint: string };
+type StateMapRow = StateRow & { event_id: string };
 type SubscriberRow = { chat_id: string };
+
+async function runBatches(env: Env, statements: D1PreparedStatement[]): Promise<void> {
+  const batchSize = 75;
+  for (let index = 0; index < statements.length; index += batchSize) {
+    await env.DB.batch(statements.slice(index, index + batchSize));
+  }
+}
 
 async function reserve(env: Env, event: Event, fingerprint: string, kind: "new" | "updated"): Promise<string | null> {
   const id = `${event.id}:${fingerprint.slice(0, 20)}`;
@@ -35,26 +43,27 @@ export async function sync(env: Env, mode: Mode): Promise<{ events: number; new:
   }
   const [registry, archive] = await Promise.all([loadEvents(env), loadArchive(env)]);
   const archived = new Set(archive.ids.map((item) => item.id));
+  const stateRows = await env.DB.prepare(
+    "SELECT event_id, significant_fingerprint FROM event_state",
+  ).all<StateMapRow>();
+  const state = new Map(stateRows.results.map((row) => [row.event_id, row]));
   const today = todayInMoscow();
   let newCount = 0;
   let updatedCount = 0;
   let published = 0;
-  const seen: string[] = [];
+  const stateUpdates: D1PreparedStatement[] = [];
   for (const event of registry.events) {
     if (event.end_date < today) continue;
-    seen.push(event.id);
     if (archived.has(event.id)) throw new Error(`Active event is also archived: ${event.id}`);
     const fingerprint = await significantFingerprint(event);
-    const previous = await env.DB.prepare(
-      "SELECT significant_fingerprint FROM event_state WHERE event_id = ?",
-    ).bind(event.id).first<StateRow>();
+    const previous = state.get(event.id);
     if (mode === "bootstrap") {
-      await env.DB.prepare(
+      stateUpdates.push(env.DB.prepare(
         `INSERT INTO event_state (event_id, significant_fingerprint)
          VALUES (?, ?) ON CONFLICT(event_id) DO UPDATE SET
            significant_fingerprint = excluded.significant_fingerprint,
            last_seen_at = CURRENT_TIMESTAMP, removed_at = NULL`,
-      ).bind(event.id, fingerprint).run();
+      ).bind(event.id, fingerprint));
       continue;
     }
     const kind = !previous
@@ -101,24 +110,17 @@ export async function sync(env: Env, mode: Mode): Promise<{ events: number; new:
         published += 1;
       }
     }
-    await env.DB.prepare(
+    stateUpdates.push(env.DB.prepare(
       `INSERT INTO event_state (event_id, significant_fingerprint)
        VALUES (?, ?) ON CONFLICT(event_id) DO UPDATE SET
          significant_fingerprint = excluded.significant_fingerprint,
          last_seen_at = CURRENT_TIMESTAMP, removed_at = NULL`,
-    ).bind(event.id, fingerprint).run();
+    ).bind(event.id, fingerprint));
   }
-  if (seen.length) {
-    const placeholders = seen.map(() => "?").join(",");
-    await env.DB.prepare(
-      `UPDATE event_state SET removed_at = COALESCE(removed_at, CURRENT_TIMESTAMP)
-       WHERE event_id NOT IN (${placeholders})`,
-    ).bind(...seen).run();
-  } else {
-    await env.DB.prepare(
-      "UPDATE event_state SET removed_at = COALESCE(removed_at, CURRENT_TIMESTAMP)",
-    ).run();
-  }
+  await env.DB.prepare(
+    "UPDATE event_state SET removed_at = COALESCE(removed_at, CURRENT_TIMESTAMP)",
+  ).run();
+  await runBatches(env, stateUpdates);
   await env.DB.prepare(
     "INSERT INTO sync_runs (mode, event_count, new_count, updated_count, published_count) VALUES (?, ?, ?, ?, ?)",
   ).bind(mode, registry.events.length, newCount, updatedCount, published).run();
