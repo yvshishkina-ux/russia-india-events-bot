@@ -1,6 +1,7 @@
 import type { Category, Event, Geography } from "./types";
 
-export type InlineKeyboard = { inline_keyboard: Array<Array<{ text: string; callback_data: string }>> };
+type InlineButton = { text: string; callback_data?: string; url?: string };
+export type InlineKeyboard = { inline_keyboard: InlineButton[][] };
 
 const MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля",
   "августа", "сентября", "октября", "ноября", "декабря"];
@@ -23,16 +24,45 @@ function dateRange(event: Event): string {
 
 export function formatCard(event: Event, notice?: "new" | "updated"): string {
   const flag = event.geography === "IN" ? "🇮🇳" : "🇷🇺";
+  const geography = event.geography === "IN" ? "Индия" : "Россия";
   const category = event.category === "business" ? "💼 Бизнес" : event.category === "culture" ? "🎭 Культура" : "🧘 Практики";
   const noticeText = notice === "new" ? "🆕 <b>НОВОЕ СОБЫТИЕ</b>\n\n" :
     notice === "updated" ? "⚠️ <b>СУЩЕСТВЕННОЕ ИЗМЕНЕНИЕ</b>\n\n" : "";
   const state = event.status === "postponed" ? "\n⚠️ Перенесено" :
     event.status === "cancelled" ? "\n⛔ Отменено" : event.status === "online" ? "\n💻 Онлайн" : "";
-  const venue = event.venue ? ` · ${escape(event.venue)}` : "";
-  const result = `${noticeText}${flag} <b>${escape(event.name)}</b>\n${category}\n\n` +
+  const venue = event.venue ? `\n🏛 ${escape(event.venue)}` : "";
+  const result = `${noticeText}${flag} <b>${escape(event.name)}</b>\n<i>${category} · ${geography}</i>\n\n` +
     `📅 <b>${dateRange(event)}</b>\n📍 ${escape(event.city)}${venue}${state}\n\n` +
     `${escape(event.description)}\n\n🔗 <a href="${escape(event.official_url)}">Официальный сайт</a>`;
   return result.slice(0, 4000);
+}
+
+function shareUrl(event: Event): string {
+  const text = `${event.name}\n📅 ${dateRange(event)}\n📍 ${event.city}`;
+  const params = new URLSearchParams({ url: event.official_url, text });
+  return `https://t.me/share/url?${params.toString()}`;
+}
+
+export function notificationMenu(event: Event): InlineKeyboard {
+  return { inline_keyboard: [[
+    { text: "↗️ Поделиться", url: shareUrl(event) },
+    { text: "🌐 Открыть сайт", url: event.official_url },
+  ]] };
+}
+
+export function carouselMenu(prefix: string, index: number, total: number, event: Event): InlineKeyboard {
+  const navigation: InlineButton[] = [];
+  if (index > 0) navigation.push({ text: "←", callback_data: `${prefix}:${index - 1}` });
+  navigation.push({ text: `${index + 1} из ${total}`, callback_data: "noop" });
+  if (index + 1 < total) navigation.push({ text: "→", callback_data: `${prefix}:${index + 1}` });
+  return { inline_keyboard: [
+    navigation,
+    [
+      { text: "↗️ Поделиться", url: shareUrl(event) },
+      { text: "🌐 Сайт", url: event.official_url },
+    ],
+    [{ text: "⌂ Главное меню", callback_data: "home" }],
+  ] };
 }
 
 export function mainMenu(): InlineKeyboard {
@@ -52,9 +82,8 @@ export function geographyChoiceMenu(prefix: "soon"): InlineKeyboard {
 }
 
 export function geographyMenu(geography: Geography): InlineKeyboard {
-  const label = geography === "IN" ? "Бизнес в Индии" : "Индия в России";
   return { inline_keyboard: [
-    [{ text: `📅 ${label} по месяцам`, callback_data: `months:${geography}:all` }],
+    [{ text: "🗓 Календарь на 120 дней", callback_data: `months:${geography}:all` }],
     [{ text: "🏙 Выбрать город", callback_data: `cities:${geography}` }],
     ...(geography === "RU" ? [[{ text: "🏷 Выбрать категорию", callback_data: "categories:RU" }]] : []),
     [{ text: "← Главное меню", callback_data: "home" }],
@@ -103,11 +132,4 @@ export function monthMenu(events: Event[], geography: Geography, category?: Cate
   });
   rows.push([{ text: "← Главное меню", callback_data: "home" }]);
   return { inline_keyboard: rows };
-}
-
-export function pageMenu(prefix: string, page: number, hasMore: boolean): InlineKeyboard {
-  const row: Array<{ text: string; callback_data: string }> = [];
-  if (page > 0) row.push({ text: "← Назад", callback_data: `${prefix}:${page - 1}` });
-  if (hasMore) row.push({ text: "Дальше →", callback_data: `${prefix}:${page + 1}` });
-  return { inline_keyboard: [row, [{ text: "⌂ Главное меню", callback_data: "home" }]].filter((item) => item.length) };
 }

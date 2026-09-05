@@ -126,5 +126,5 @@ export function parseArchiveRegistry(value: unknown): ArchiveRegistry {
 export type TelegramUpdate = {
   update_id: number;
   message?: { chat: { id: number }; text?: string };
-  callback_query?: { id: string; data?: string; message?: { chat: { id: number } } };
+  callback_query?: { id: string; data?: string; message?: { message_id: number; chat: { id: number } } };
 };

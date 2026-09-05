@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { activeEvents, significantMaterial, visibleEvents } from "../src/catalog.ts";
-import { cityToken } from "../src/format.ts";
+import { carouselMenu, cityToken, formatCard } from "../src/format.ts";
 import { parseEventsRegistry, type Event } from "../src/types.ts";
 
 const event: Event = {
@@ -49,4 +49,16 @@ test("significant comparison ignores description but includes date city status a
   assert.notEqual(significantMaterial({ ...event, start_date: "2026-10-14" }), baseline);
   assert.equal(significantMaterial({ ...event, official_url: "https://example.com/event?utm_campaign=x" }), baseline);
   assert.notEqual(significantMaterial({ ...event, status: "postponed" }), baseline);
+});
+
+test("carousel renders one card with navigation and sharing", () => {
+  const keyboard = carouselMenu("city:RU:test", 1, 3, event);
+  assert.match(formatCard(event), /📅 <b>15 октября 2026 — 16 октября 2026<\/b>/);
+  assert.deepEqual(keyboard.inline_keyboard[0].map((button) => button.text), ["←", "2 из 3", "→"]);
+  assert.match(keyboard.inline_keyboard[1][0]?.url ?? "", /^https:\/\/t\.me\/share\/url\?/);
+  for (const row of keyboard.inline_keyboard) {
+    for (const button of row) {
+      if (button.callback_data) assert.ok(new TextEncoder().encode(button.callback_data).length <= 64);
+    }
+  }
 });

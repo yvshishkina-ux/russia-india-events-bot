@@ -1,5 +1,5 @@
 import { significantFingerprint, todayInMoscow } from "./catalog";
-import { formatCard } from "./format";
+import { formatCard, notificationMenu } from "./format";
 import { loadArchive, loadEvents } from "./github";
 import { sendMessage, TelegramApiError } from "./telegram";
 import type { Event } from "./types";
@@ -84,7 +84,7 @@ export async function sync(env: Env, mode: Mode): Promise<{ events: number; new:
           ).bind(publicationId, subscriber.chat_id).first<{ chat_id: string }>();
           if (delivered) continue;
           try {
-            await sendMessage(env, subscriber.chat_id, formatCard(event, kind));
+            await sendMessage(env, subscriber.chat_id, formatCard(event, kind), notificationMenu(event));
             await env.DB.prepare(
               "INSERT OR IGNORE INTO notification_deliveries (publication_id, chat_id) VALUES (?, ?)",
             ).bind(publicationId, subscriber.chat_id).run();
