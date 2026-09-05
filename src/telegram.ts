@@ -1,5 +1,5 @@
-import { activeEvents, visibleEvents } from "./catalog";
-import { categoryMenu, cityMenu, cityToken, formatCard, geographyMenu, mainMenu, monthMenu, pageMenu, type InlineKeyboard } from "./format";
+import { activeEvents, todayInMoscow, visibleEvents } from "./catalog";
+import { categoryMenu, cityMenu, cityToken, formatCard, geographyChoiceMenu, geographyMenu, mainMenu, monthMenu, pageMenu, type InlineKeyboard } from "./format";
 import type { Category, Event, Geography, TelegramUpdate } from "./types";
 
 type ApiResult = { ok?: boolean; description?: string };
@@ -30,13 +30,25 @@ async function answerCallback(env: Env, id: string): Promise<void> {
 const validGeo = (value: string): value is Geography => value === "IN" || value === "RU";
 const validCategory = (value: string): value is Category => ["business", "culture", "practices"].includes(value);
 
-async function showPage(env: Env, chatId: string, events: Event[], prefix: string, page: number): Promise<void> {
+async function recentlyAddedEvents(env: Env, events: Event[]): Promise<Event[]> {
+  const days = Math.min(Math.max(Number.parseInt(env.RECENT_DAYS, 10) || 14, 1), 60);
+  const rows = await env.DB.prepare(
+    "SELECT DISTINCT event_id FROM published_versions WHERE kind = 'new' AND created_at >= datetime('now', ?)",
+  ).bind(`-${days} days`).all<{ event_id: string }>();
+  const ids = new Set(rows.results.map((row) => row.event_id));
+  return activeEvents(events).filter((event) => ids.has(event.id));
+}
+
+async function showPage(
+  env: Env, chatId: string, events: Event[], prefix: string, page: number,
+  emptyText = "В этом разделе предстоящих событий пока нет.",
+): Promise<void> {
   const configured = Number.parseInt(env.PAGE_SIZE, 10);
   const size = Number.isFinite(configured) ? Math.min(Math.max(configured, 1), 8) : 6;
   const start = page * size;
   const items = events.slice(start, start + size);
   if (!items.length) {
-    await sendMessage(env, chatId, "В этом разделе предстоящих событий пока нет.", mainMenu());
+    await sendMessage(env, chatId, emptyText, mainMenu());
     return;
   }
   for (const event of items) await sendMessage(env, chatId, formatCard(event));
@@ -81,21 +93,24 @@ export async function handleUpdate(env: Env, update: TelegramUpdate, events: Eve
     if (!geography || !validGeo(geography)) return;
     return sendMessage(env, String(chatId), "Выберите город:", cityMenu(activeEvents(events), geography));
   }
-  if (data === "soon") return showPage(env, String(chatId), activeEvents(events).slice(0, 24), "soon", 0);
+  if (data === "soon") return sendMessage(env, String(chatId), "Где показать ближайшие события?", geographyChoiceMenu("soon"));
   if (data.startsWith("soon:")) {
-    const page = Number(data.split(":")[1] ?? "0");
-    return showPage(env, String(chatId), activeEvents(events).slice(0, 24), "soon", page);
+    const [, geo, rawPage] = data.split(":");
+    if (!geo || !validGeo(geo)) return sendMessage(env, String(chatId), "Где показать ближайшие события?", geographyChoiceMenu("soon"));
+    const page = Math.max(0, Number.parseInt(rawPage ?? "0", 10) || 0);
+    const upcoming = activeEvents(events)
+      .filter((event) => event.geography === geo && event.start_date >= todayInMoscow())
+      .slice(0, 24);
+    return showPage(env, String(chatId), upcoming, `soon:${geo}`, page);
   }
   if (data === "recent") {
-    const days = Math.min(Math.max(Number.parseInt(env.RECENT_DAYS, 10) || 14, 1), 60);
-    const cutoff = new Date(Date.now() - days * 86_400_000).toISOString().slice(0, 10);
-    return showPage(env, String(chatId), activeEvents(events).filter((event) => event.added_at >= cutoff), "recent", 0);
+    return showPage(env, String(chatId), await recentlyAddedEvents(env, events), "recent", 0,
+      "Новых событий после запуска бота пока нет.");
   }
   if (data.startsWith("recent:")) {
-    const days = Math.min(Math.max(Number.parseInt(env.RECENT_DAYS, 10) || 14, 1), 60);
-    const cutoff = new Date(Date.now() - days * 86_400_000).toISOString().slice(0, 10);
     const page = Number(data.split(":")[1] ?? "0");
-    return showPage(env, String(chatId), activeEvents(events).filter((event) => event.added_at >= cutoff), "recent", page);
+    return showPage(env, String(chatId), await recentlyAddedEvents(env, events), "recent", page,
+      "Новых событий после запуска бота пока нет.");
   }
   if (data.startsWith("months:")) {
     const [, geo, rawCategory] = data.split(":");

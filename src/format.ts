@@ -43,6 +43,14 @@ export function mainMenu(): InlineKeyboard {
   ] };
 }
 
+export function geographyChoiceMenu(prefix: "soon"): InlineKeyboard {
+  return { inline_keyboard: [
+    [{ text: "🇮🇳 В Индии", callback_data: `${prefix}:IN:0` }],
+    [{ text: "🇷🇺 В России", callback_data: `${prefix}:RU:0` }],
+    [{ text: "← Главное меню", callback_data: "home" }],
+  ] };
+}
+
 export function geographyMenu(geography: Geography): InlineKeyboard {
   const label = geography === "IN" ? "Бизнес в Индии" : "Индия в России";
   return { inline_keyboard: [
