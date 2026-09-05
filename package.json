@@ -1,0 +1,21 @@
+{
+  "name": "russia-india-events-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal Telegram catalogue for prebuilt Russia-India event data",
+  "scripts": {
+    "check": "wrangler types && tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "import": "node scripts/import-calendars.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 migrations apply russia-india-events-bot --local",
+    "db:remote": "wrangler d1 migrations apply russia-india-events-bot --remote"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.128.0"
+  }
+}
