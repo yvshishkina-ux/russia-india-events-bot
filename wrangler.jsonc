@@ -5,8 +5,8 @@
   "compatibility_date": "2026-09-05",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
-    "GITHUB_OWNER": "CHANGE_ME",
-    "GITHUB_REPO": "CHANGE_ME",
+    "GITHUB_OWNER": "yvshishkina-ux",
+    "GITHUB_REPO": "russia-india-events-bot",
     "GITHUB_BRANCH": "main",
     "EVENTS_PATH": "data/events.json",
     "ARCHIVE_PATH": "data/archive_ids.json",
@@ -17,7 +17,7 @@
     {
       "binding": "DB",
       "database_name": "russia-india-events-bot",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "c2d7d6e9-10c3-4bbf-8e22-44f8e32e8050",
       "migrations_dir": "migrations"
     }
   ],
