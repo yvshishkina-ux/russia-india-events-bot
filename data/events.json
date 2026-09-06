@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-05T19:48:59.086Z",
+  "generated_at": "2026-09-06T03:02:28Z",
   "horizon_days": 120,
   "events": [
     {
@@ -2122,6 +2122,36 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "isee-2026-new-delhi",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-05",
+      "name": "International Sourcing Exposition for Elevators & Escalators (ISEE) 2026",
+      "city": "Нью-Дели",
+      "venue": "Yashobhoomi, India International Convention & Expo Centre",
+      "description": "Международная B2B-выставка лифтов, эскалаторов, компонентов, систем управления и технологий вертикального транспорта.",
+      "official_url": "https://www.isee-expo.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
+      "id": "mccia-defence-aerospace-space-expo-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-05",
+      "name": "MCCIA Defence, Aerospace & Space Expo 2026",
+      "city": "Пуна",
+      "venue": "Auto Cluster Exhibition Centre, Chinchwad",
+      "description": "Национальная B2B-выставка и конференция по оборонному производству, аэрокосмическим технологиям, беспилотным системам и отраслевой кооперации.",
+      "official_url": "https://www.mcciapune.com/stallbookings/defence-expo-page/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
       "id": "ifsec-india-2026-2026-12-03-66719a0097",
       "geography": "IN",
       "category": "business",
@@ -2192,6 +2222,21 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "wofx-world-furniture-expo-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-08",
+      "end_date": "2026-12-10",
+      "name": "WOFX — World Furniture Expo 2026",
+      "city": "Мумбаи",
+      "venue": "Bombay Exhibition Centre",
+      "description": "Международная B2B-выставка мебели и дизайна для производителей, брендов, импортёров, дистрибьюторов, ритейла и интерьерных специалистов.",
+      "official_url": "https://www.wofxworldexpo.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
       "id": "bgls-ai-conference-2026-bengaluru-2026-12-08-c606820b32",
       "geography": "IN",
       "category": "business",
@@ -2204,6 +2249,36 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "annapoorna-inter-food-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-11",
+      "name": "Annapoorna Inter Food 2026",
+      "city": "Мумбаи",
+      "venue": "Bombay Exhibition Centre",
+      "description": "Международная B2B-выставка продуктов питания, напитков и HoReCa для производителей, импортёров, дистрибьюторов, ритейла и корпоративных закупщиков.",
+      "official_url": "https://annapoornainterfood.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
+      "id": "auto-ev-bharat-2026-bengaluru",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-11",
+      "name": "Auto EV Bharat 2026",
+      "city": "Бенгалуру",
+      "venue": "KTPO Convention Centre, Whitefield",
+      "description": "B2B-выставка автомобильных и EV-технологий: батареи, зарядная инфраструктура, силовая электроника, ADAS, подключённый транспорт и умное производство.",
+      "official_url": "https://www.autoevbharat.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
     },
     {
       "id": "auto-ev-techvision-summit-2026-2026-12-10-d418aff617",
@@ -2262,6 +2337,21 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "machma-expo-2026-chandigarh",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-14",
+      "name": "MACHMA Expo 2026",
+      "city": "Чандигарх",
+      "venue": "Parade Ground, Sector 17",
+      "description": "Промышленная B2B-выставка станков, автоматизации, робототехники, лазерных технологий, металлообработки и производственного оборудования.",
+      "official_url": "https://www.machmaexpo.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
       "id": "finbridge-trading-investing-expo-hyderabad-2026-12-12-d7701c7f06",
       "geography": "IN",
       "category": "business",
@@ -2274,6 +2364,21 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "met-hts-2026-navi-mumbai",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-16",
+      "end_date": "2026-12-18",
+      "name": "MET & HTS 2026",
+      "city": "Нави-Мумбаи",
+      "venue": "CIDCO Exhibition Centre",
+      "description": "Международная выставка и конференция по материаловедению, термообработке, композитам, покрытиям, испытаниям и передовым производственным процессам.",
+      "official_url": "https://metandhts.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
     },
     {
       "id": "geosmart-india-2026-2026-12-16-268ae06600",
@@ -2374,6 +2479,21 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "india-women-trade-fair-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-18",
+      "end_date": "2026-12-20",
+      "name": "India Women Trade Fair 2026",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Деловая выставка FICCI FLO для женского предпринимательства с B2B- и B2G-встречами, покупателями, инвесторами, стартапами и отраслевыми форумами.",
+      "official_url": "https://ficciflo.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
       "id": "india-med-expo-2026-hyderabad-2026-12-18-46b57d4e2a",
       "geography": "IN",
       "category": "business",
@@ -2386,6 +2506,81 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "fifex-2026-kochi",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-21",
+      "name": "FIFEX 2026",
+      "city": "Кочи",
+      "venue": "Adlux International Convention & Exhibition Centre, Angamaly",
+      "description": "B2B-выставка готовой мебели Южной Индии для производителей, продавцов, дистрибьюторов и профессиональных закупщиков.",
+      "official_url": "https://fifex.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
+      "id": "abilities-india-expo-2026-bengaluru",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-20",
+      "end_date": "2026-12-22",
+      "name": "Abilities India Expo 2026",
+      "city": "Бенгалуру",
+      "venue": "KTPO Exhibition & Convention Centre, Whitefield",
+      "description": "B2B- и B2C-выставка доступности, ассистивных технологий, реабилитационного оборудования, инклюзивного образования и независимой мобильности.",
+      "official_url": "https://abilitiesindiaexpo.com/palace_ground/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
+      "id": "intimasia-2026-mumbai",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-22",
+      "end_date": "2026-12-24",
+      "name": "INTIMASIA 2026",
+      "city": "Мумбаи",
+      "venue": "Bombay Exhibition Centre",
+      "description": "Профессиональная выставка индустрии нижнего белья, домашней, спортивной и пляжной одежды для брендов, ритейлеров и дистрибьюторов.",
+      "official_url": "https://www.intimasia.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
+      "id": "jaipur-jewellery-show-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-22",
+      "end_date": "2026-12-25",
+      "name": "Jaipur Jewellery Show 2026",
+      "city": "Джайпур",
+      "venue": "Novotel Jaipur Convention Centre (JECC)",
+      "description": "Крупная B2B- и B2C-выставка ювелирных изделий с отдельным профессиональным павильоном, международными покупателями и программой дизайна.",
+      "official_url": "https://www.jaipurjewelleryshow.org/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
+    },
+    {
+      "id": "tech-vapi-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-23",
+      "end_date": "2026-12-25",
+      "name": "TECH VAPI 2026",
+      "city": "Вапи",
+      "venue": "VIA Ground",
+      "description": "B2B-выставка машиностроения, станков, автоматизации, электротехники, приборостроения, упаковки и оборудования для химической и фармацевтической промышленности.",
+      "official_url": "https://techvapi.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-06",
+      "updated_at": "2026-09-06"
     }
   ]
 }
