@@ -1,38 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-09-06T03:02:28Z",
+  "generated_at": "2026-09-07T03:06:51Z",
   "horizon_days": 120,
   "events": [
-    {
-      "id": "cosmoscow-2026-2026-09-03-1bbd602906",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-09-03",
-      "end_date": "2026-09-06",
-      "name": "Cosmoscow 2026 — иностранная секция: современное искусство Индии и Ирана",
-      "city": "Москва",
-      "venue": "Тимирязев Центр, Москва",
-      "description": "14-я Международная ярмарка современного искусства Cosmoscow. В 2026 году отдельная иностранная секция посвящена современному искусству Индии и Ирана. Предпоказ проходит 3 сентября, основные дни — 4–6 сентября.",
-      "official_url": "https://www.cosmoscow.com/ru/news/164/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "delhi-2026-09-04-83291f2b26",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-09-04",
-      "end_date": "2026-09-06",
-      "name": "Delhi базар — индийская ярмарка",
-      "city": "Москва",
-      "venue": "Басманный двор, ул. Бауманская, 15, Москва",
-      "description": "Тематическая индийская ярмарка: товары и текстиль из Индии, аюрведическая косметика, специи, чай, украшения, благовония, мехенди и индийская гастрономия.",
-      "official_url": "https://delhibazar.ru/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
     {
       "id": "event-2026-09-04-353f215421",
       "geography": "RU",
@@ -43,20 +13,6 @@
       "city": "Москва",
       "description": "Практический курс для начинающих и продолжающих: разбор базовых асан, дыхания, техники выполнения и распределения усилия в практике.",
       "official_url": "https://yogajournal.ru/events/klyuchi-k-asanam_936_597/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "ind-expo-2026-hyderabad-2026-09-04-72741f3601",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-04",
-      "end_date": "2026-09-06",
-      "name": "Ind Expo 2026 — Hyderabad",
-      "city": "Хайдарабад",
-      "description": "Промышленная B2B-выставка по станкам, автоматизации, инженерным решениям, энергетике и промышленным технологиям.",
-      "official_url": "https://indexpo.co.in/hyderabad-expo-2026/",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -357,6 +313,20 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-ai-cyber-security-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-15",
+      "name": "CII AI Cyber Security Summit 2026",
+      "city": "Чандигарх",
+      "description": "Деловой саммит CII по защите корпоративных систем, управлению рисками и применению искусственного интеллекта в кибербезопасности.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
+    },
+    {
       "id": "bauma-conexpo-india-2026-2026-09-15-b10a1c5817",
       "geography": "IN",
       "category": "business",
@@ -427,6 +397,21 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "infocomm-india-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18",
+      "name": "InfoComm India 2026",
+      "city": "Мумбаи",
+      "venue": "Jio World Convention Centre",
+      "description": "Профессиональная B2B-выставка и саммит по аудиовизуальным технологиям, цифровой инфраструктуре, системной интеграции и корпоративным коммуникациям.",
+      "official_url": "https://www.infocomm-india.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
+    },
+    {
       "id": "4th-assocham-national-health-wellness-summit-2026-2026-09-17-a063a70f65",
       "geography": "IN",
       "category": "business",
@@ -439,6 +424,20 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "latte-2026-new-delhi",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-19",
+      "name": "LATTE 2026",
+      "city": "Нью-Дели",
+      "description": "B2B-выставка туристической индустрии стран Латинской Америки и Карибского бассейна для индийских покупателей, туроператоров и MICE-партнёров.",
+      "official_url": "https://latte.co.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
     },
     {
       "id": "crop-nexa-2026-2026-09-17-b6fb6177e6",
@@ -876,6 +875,50 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "aluminium-bharat-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-29",
+      "name": "Aluminium Bharat 2026",
+      "city": "Гандинагар",
+      "venue": "Helipad Exhibition Centre",
+      "description": "Крупная B2B-выставка алюминиевой отрасли: сырьё, экструзия, обработка, оборудование, инженерные решения и встречи покупателей с поставщиками.",
+      "official_url": "https://alubharat.org/",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
+    },
+    {
+      "id": "fire-india-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-28",
+      "end_date": "2026-09-30",
+      "name": "Fire India 2026",
+      "city": "Нью-Дели",
+      "venue": "Yashobhoomi IICC, Dwarka",
+      "description": "Профессиональная выставка и конференция по пожарной и промышленной безопасности, аварийно-спасательному оборудованию и системам защиты.",
+      "official_url": "https://www.fireindia.net/",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
+    },
+    {
+      "id": "cii-ir-labour-conference-awards-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-28",
+      "end_date": "2026-09-28",
+      "name": "CII IR & Labour Conference and Awards 2026",
+      "city": "Нью-Дели",
+      "description": "Конференция CII для работодателей и HR-руководителей по трудовым отношениям, регулированию, производственным практикам и отраслевым достижениям.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
+    },
+    {
       "id": "bioresources-circular-economy-summit-expo-2026-2026-09-28-3bf889b4d2",
       "geography": "IN",
       "category": "business",
@@ -888,6 +931,21 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "mapic-india-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-29",
+      "end_date": "2026-09-30",
+      "name": "MAPIC India 2026",
+      "city": "Мумбаи",
+      "venue": "Jio World Convention Centre",
+      "description": "Профессиональная выставка и конференция для ритейла и коммерческой недвижимости с участием брендов, девелоперов, инвесторов и технологических компаний.",
+      "official_url": "https://www.mapic-india.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
     },
     {
       "id": "anuga-foodtec-india-2026-2026-09-29-2b94442902",
@@ -986,6 +1044,20 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "cii-gems-jewellery-conference-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-30",
+      "end_date": "2026-09-30",
+      "name": "CII Gems and Jewellery Conference 2026",
+      "city": "Нью-Дели",
+      "description": "Отраслевая конференция CII для производителей, экспортёров, ритейла и технологических компаний ювелирной индустрии.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
     },
     {
       "id": "event-2026-09-30-86ea6cccc1",
@@ -1310,6 +1382,20 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-annual-health-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-14",
+      "name": "23rd CII Annual Health Summit 2026",
+      "city": "Нью-Дели",
+      "description": "Флагманский отраслевой саммит CII по здравоохранению, медицинским технологиям, инвестициям, регулированию и развитию медицинских услуг.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
+    },
+    {
       "id": "4th-cii-alternatives-investment-fund-summit-2026-2026-10-14-a4052d0607",
       "geography": "IN",
       "category": "business",
@@ -1434,6 +1520,20 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "cii-circular-economy-conference-2026-2026-10-27-1b72ab75e6",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "name": "CII Circular Economy Conference 2026",
+      "city": "Дели",
+      "description": "Конференция CII по circular economy, ресурсной эффективности и устойчивым бизнес-моделям.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-05",
+      "updated_at": "2026-09-07"
     },
     {
       "id": "india-cold-chain-show-2026-2026-10-22-46908cfb35",
@@ -1576,20 +1676,6 @@
       "updated_at": "2026-09-05"
     },
     {
-      "id": "cii-circular-economy-conference-2026-2026-10-27-1b72ab75e6",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-27",
-      "end_date": "2026-10-27",
-      "name": "CII Circular Economy Conference 2026",
-      "city": "Дели",
-      "description": "Конференция CII по circular economy, ресурсной эффективности и устойчивым бизнес-моделям.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
       "id": "bharat-global-cultural-expo-2026-2026-10-28-5f30451bd2",
       "geography": "IN",
       "category": "business",
@@ -1602,6 +1688,20 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "cii-pse-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "name": "13th CII PSE Summit 2026",
+      "city": "Нью-Дели",
+      "description": "Деловой саммит CII по развитию предприятий государственного сектора, управлению, инвестициям, технологиям и промышленной эффективности.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-07",
+      "updated_at": "2026-09-07"
     },
     {
       "id": "drinktec-india-2026-2026-10-28-73b8b21bed",
@@ -1795,34 +1895,6 @@
       "city": "Бенгалуру",
       "description": "Международный технологический и инвестиционный саммит для корпораций, стартапов, инвесторов и policymakers.",
       "official_url": "https://www.bengalurutechsummit.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "18th-international-mining-and-machinery-exhibition-2026-imme-2026-11-18-16a06ee939",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-18",
-      "end_date": "2026-11-21",
-      "name": "18th International Mining and Machinery Exhibition 2026 (IMME)",
-      "city": "Калькутта",
-      "description": "Крупная B2B-выставка горнодобывающей промышленности, техники, оборудования и технологических решений.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "global-mining-summit-2026-2026-11-18-f6e951483c",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-18",
-      "end_date": "2026-11-19",
-      "name": "Global Mining Summit 2026",
-      "city": "Калькутта",
-      "description": "Международный деловой саммит по горнодобывающей отрасли, технологиям, инвестициям и промышленной кооперации.",
-      "official_url": "https://www.cii.in/Events.aspx",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -2220,6 +2292,36 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "global-mining-summit-2026-2026-11-18-f6e951483c",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-08",
+      "name": "Global Mining Summit 2026",
+      "city": "Калькутта",
+      "venue": "Eco Park",
+      "description": "Международный деловой саммит по горнодобывающей отрасли, технологиям, инвестициям и промышленной кооперации.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-05",
+      "updated_at": "2026-09-07"
+    },
+    {
+      "id": "18th-international-mining-and-machinery-exhibition-2026-imme-2026-11-18-16a06ee939",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-10",
+      "name": "18th International Mining and Machinery Exhibition 2026 (IMME)",
+      "city": "Калькутта",
+      "venue": "Eco Park",
+      "description": "Крупная B2B-выставка горнодобывающей промышленности, техники, оборудования и технологических решений.",
+      "official_url": "https://www.immeindia.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-05",
+      "updated_at": "2026-09-07"
     },
     {
       "id": "wofx-world-furniture-expo-2026",

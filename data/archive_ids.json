@@ -1,5 +1,18 @@
 {
   "version": 1,
   "retention_days": 365,
-  "ids": []
+  "ids": [
+    {
+      "id": "cosmoscow-2026-2026-09-03-1bbd602906",
+      "ended_on": "2026-09-06"
+    },
+    {
+      "id": "delhi-2026-09-04-83291f2b26",
+      "ended_on": "2026-09-06"
+    },
+    {
+      "id": "ind-expo-2026-hyderabad-2026-09-04-72741f3601",
+      "ended_on": "2026-09-06"
+    }
+  ]
 }
