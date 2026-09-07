@@ -20,9 +20,9 @@ test("registry rejects duplicate event ids", () => {
 test("committed event registry is valid", async () => {
   const raw = JSON.parse(await readFile(new URL("../data/events.json", import.meta.url), "utf8"));
   const registry = parseEventsRegistry(raw);
-  assert.equal(registry.events.length, 170);
-  assert.equal(registry.events.filter((event) => event.geography === "IN").length, 146);
-  assert.equal(registry.events.filter((event) => event.geography === "RU").length, 24);
+  assert.equal(registry.events.length, 190);
+  assert.equal(registry.events.filter((event) => event.geography === "IN").length, 168);
+  assert.equal(registry.events.filter((event) => event.geography === "RU").length, 22);
 });
 
 test("only end date decides whether a scheduled event is still active", () => {
