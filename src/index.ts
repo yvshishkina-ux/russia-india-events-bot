@@ -20,7 +20,7 @@ export default {
     try {
       const url = new URL(request.url);
       if (request.method === "GET" && url.pathname === "/healthz") {
-        return json({ ok: true, service: "russia-india-events-bot", ai: false, parsing: false });
+        return json({ ok: true, service: "russia-india-events-bot", schedule_moscow: "09:00", ai: false, parsing: false });
       }
       if (request.method === "POST" && url.pathname === "/telegram/webhook") {
         const secret = request.headers.get("X-Telegram-Bot-Api-Secret-Token") ?? "";
