@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T03:06:51Z",
+  "generated_at": "2026-09-08T03:04:07Z",
   "horizon_days": 120,
   "events": [
     {
@@ -13,34 +13,6 @@
       "city": "Москва",
       "description": "Практический курс для начинающих и продолжающих: разбор базовых асан, дыхания, техники выполнения и распределения усилия в практике.",
       "official_url": "https://yogajournal.ru/events/klyuchi-k-asanam_936_597/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "india-med-expo-2026-bengaluru-2026-09-05-3f7dfc85be",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-05",
-      "end_date": "2026-09-07",
-      "name": "India Med Expo 2026 — Bengaluru",
-      "city": "Бенгалуру",
-      "description": "B2B-выставка медицинского и госпитального оборудования, инструментов, диагностики и расходных материалов.",
-      "official_url": "https://indiamedexpo.in/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "vii-2026-09-05-2ff5fbc5a9",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-09-05",
-      "end_date": "2026-09-07",
-      "name": "VII Международный фестиваль «Буддийское наследие Непала»",
-      "city": "Москва",
-      "description": "Фестиваль гималайской и буддийской культуры: лекции, выставки, музыка, практики и культурная программа. Включён как смежный индийско-гималайский культурный контур.",
-      "official_url": "https://www.buddhism.ru/",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -69,20 +41,6 @@
       "city": "Нью-Дели",
       "description": "Международная B2B-выставка фармацевтики и healthcare для производителей, экспортёров, импортёров и дистрибьюторов.",
       "official_url": "https://iphex-india.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "mantrafest-2026-2026-09-07-7b1d7acb0b",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-09-07",
-      "end_date": "2026-09-07",
-      "name": "Mantrafest 2026",
-      "city": "Москва",
-      "description": "Крупный фестиваль мантр и духовной музыки в концертном зале «Москва»; индийская духовно-музыкальная традиция.",
-      "official_url": "https://yogajournal.ru/events/",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -172,6 +130,20 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-ai-leadership-for-cxos-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-11",
+      "name": "CII AI Leadership for CXOs 2026",
+      "city": "Панаджи",
+      "description": "Программа для руководителей по масштабированию искусственного интеллекта, корпоративной трансформации и созданию бизнес-ценности, включая визиты на предприятия.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000075335",
+      "status": "scheduled",
+      "added_at": "2026-09-08",
+      "updated_at": "2026-09-08"
+    },
+    {
       "id": "brews-spirits-expo-2026-2026-09-09-d329f93341",
       "geography": "IN",
       "category": "business",
@@ -186,18 +158,32 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-aibc-north-india-bootcamp-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-09",
+      "name": "CII–AIBC North India Bootcamp 2026",
+      "city": "Чандигарх",
+      "description": "Деловая программа CII и Australia India Business Council по развитию торговых, инвестиционных и корпоративных связей между Индией и Австралией.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076320",
+      "status": "scheduled",
+      "added_at": "2026-09-08",
+      "updated_at": "2026-09-08"
+    },
+    {
       "id": "cii-annual-infrastructure-summit-2026-2026-09-09-d37b497d7b",
       "geography": "IN",
       "category": "business",
       "start_date": "2026-09-09",
-      "end_date": "2026-09-10",
+      "end_date": "2026-09-09",
       "name": "CII Annual Infrastructure Summit 2026",
       "city": "Нью-Дели",
       "description": "Инфраструктурный саммит CII по финансированию, PPP, реализации проектов и инвестиционным возможностям.",
-      "official_url": "https://www.cii.in/Events.aspx",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000073770",
       "status": "scheduled",
       "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
+      "updated_at": "2026-09-08"
     },
     {
       "id": "cii-real-estate-summit-2026-2026-09-09-6884c4af58",
@@ -284,6 +270,34 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-aerospace-supply-chains-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-10",
+      "name": "CII National Initiative for MSME Integration into Global Aerospace Supply Chains",
+      "city": "Нью-Дели",
+      "description": "Национальная деловая площадка по включению индийских малых и средних предприятий в глобальные цепочки поставок аэрокосмической отрасли.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076247",
+      "status": "scheduled",
+      "added_at": "2026-09-08",
+      "updated_at": "2026-09-08"
+    },
+    {
+      "id": "cii-punjab-family-business-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-10",
+      "name": "CII Punjab Family Business Summit 2026",
+      "city": "Чандигарх",
+      "description": "Региональный саммит для владельцев семейного бизнеса по преемственности, корпоративному управлению, росту и долгосрочной стратегии.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076500",
+      "status": "scheduled",
+      "added_at": "2026-09-08",
+      "updated_at": "2026-09-08"
+    },
+    {
       "id": "4th-cii-karnataka-esg-summit-2026-2026-09-11-f188a92fa8",
       "geography": "IN",
       "category": "business",
@@ -296,6 +310,48 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "cii-green-rajasthan-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-11",
+      "name": "2nd CII Green Rajasthan Summit 2026",
+      "city": "Джайпур",
+      "description": "Региональный деловой саммит по устойчивому развитию, зелёным технологиям, ресурсной эффективности и промышленным инвестициям.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000075819",
+      "status": "scheduled",
+      "added_at": "2026-09-08",
+      "updated_at": "2026-09-08"
+    },
+    {
+      "id": "cii-ap-hr-conclave-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-11",
+      "name": "CII AP HR Conclave 2026",
+      "city": "Вишакхапатнам",
+      "description": "Региональная конференция для HR-руководителей по развитию кадров, трансформации рабочих процессов и современным практикам управления персоналом.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076470",
+      "status": "scheduled",
+      "added_at": "2026-09-08",
+      "updated_at": "2026-09-08"
+    },
+    {
+      "id": "cii-advanced-materials-critical-minerals-metals-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-11",
+      "name": "CII Global Summit on Advanced Materials, Critical Minerals & Metals",
+      "city": "Нью-Дели",
+      "description": "Глобальный отраслевой саммит по передовым материалам, критическим минералам, металлам, технологиям и устойчивым цепочкам поставок.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000074985",
+      "status": "scheduled",
+      "added_at": "2026-09-08",
+      "updated_at": "2026-09-08"
     },
     {
       "id": "event-2026-09-13-35f3c1861d",
