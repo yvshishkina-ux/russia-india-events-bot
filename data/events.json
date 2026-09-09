@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T03:04:07Z",
+  "generated_at": "2026-09-09T03:10:29Z",
   "horizon_days": 120,
   "events": [
     {
@@ -83,20 +83,6 @@
       "city": "Мумбаи",
       "description": "Отраслевой форум по hospital tech, цифровизации медицинской инфраструктуры и технологиям для клиник.",
       "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "assocham-national-conference-on-real-estate-for-viksit-bharat-2026-09-08-11ec295761",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-08",
-      "end_date": "2026-09-08",
-      "name": "ASSOCHAM National Conference on Real Estate for Viksit Bharat",
-      "city": "Нью-Дели",
-      "description": "Национальная конференция по недвижимости, инвестициям, регулированию, PropTech и улучшению условий ведения бизнеса.",
-      "official_url": "https://www.assocham.org/event-detail.php?event=real-estate-national-conference-on-enabling-growth-investment-ease-of-doing-business",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -1172,6 +1158,21 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "india-carpet-expo-2026-bhadohi",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-07",
+      "name": "50th India Carpet Expo",
+      "city": "Бхадохи",
+      "venue": "Carpet Expo Mart",
+      "description": "Юбилейная международная B2B-выставка индийских ковров и напольных покрытий для производителей, экспортёров и зарубежных закупщиков.",
+      "official_url": "https://www.indiacarpetexpo.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-09",
+      "updated_at": "2026-09-09"
+    },
+    {
       "id": "cii-uttar-pradesh-banking-and-insurance-summit-2026-2026-10-07-eb97633420",
       "geography": "IN",
       "category": "business",
@@ -1802,6 +1803,21 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "corcon-2026-greater-noida",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-31",
+      "name": "CORCON 2026",
+      "city": "Грейтер-Нойда",
+      "venue": "India Expo Centre & Mart",
+      "description": "Международная конференция и выставка по коррозии, защите материалов, надёжности активов и инженерным технологиям.",
+      "official_url": "https://corcon.org/",
+      "status": "scheduled",
+      "added_at": "2026-09-09",
+      "updated_at": "2026-09-09"
+    },
+    {
       "id": "29th-cii-chandigarh-fair-2026-10-30-9ce0adabab",
       "geography": "IN",
       "category": "business",
@@ -1814,6 +1830,21 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "bharat-renewable-energy-summit-expo-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-05",
+      "name": "Bharat Renewable Energy Summit & Expo 2026",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Флагманский международный саммит и экспо Министерства новой и возобновляемой энергетики Индии по инвестициям, технологиям, производству и цепочкам поставок.",
+      "official_url": "https://bresummit.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-09",
+      "updated_at": "2026-09-09"
     },
     {
       "id": "maritime-india-conference-expo-2026-4th-edition-2026-11-02-9fdce8cfc9",
@@ -1940,6 +1971,21 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "igha-hyvolution-india-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-18",
+      "name": "India Green Hydrogen Assembly & Hyvolution India 2026",
+      "city": "Грейтер-Нойда",
+      "venue": "India Expo Mart",
+      "description": "Международная выставка и конференция по зелёному водороду, инвестициям, инфраструктуре, технологиям и промышленным проектам.",
+      "official_url": "https://www.igha-hyvolution.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-09",
+      "updated_at": "2026-09-09"
     },
     {
       "id": "bengaluru-tech-summit-2026-2026-11-17-0162ea6cbf",
