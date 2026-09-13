@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-12T03:04:24Z",
+  "generated_at": "2026-09-13T13:25:22Z",
   "horizon_days": 120,
   "events": [
     {
@@ -2700,6 +2700,21 @@
       "updated_at": "2026-09-10"
     },
     {
+      "id": "international-optics-fair-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-09",
+      "end_date": "2027-01-11",
+      "name": "International Optics Fair 2027",
+      "city": "Нью-Дели",
+      "venue": "Hall 1, Bharat Mandapam",
+      "description": "Профессиональная B2B-выставка оптики для производителей, международных брендов, дистрибьюторов, ритейлеров, оптометристов и поставщиков технологий.",
+      "official_url": "https://www.opticsfair.in/index.php",
+      "status": "scheduled",
+      "added_at": "2026-09-13",
+      "updated_at": "2026-09-13"
+    },
+    {
       "id": "professional-speakers-summit-2027",
       "geography": "IN",
       "category": "business",
@@ -2728,6 +2743,51 @@
       "status": "scheduled",
       "added_at": "2026-09-11",
       "updated_at": "2026-09-11"
+    },
+    {
+      "id": "ai-india-expo-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-11",
+      "end_date": "2027-01-13",
+      "name": "AI India Expo 2027",
+      "city": "Бенгалуру",
+      "venue": "KTPO Exhibition & Convention Centre",
+      "description": "Международная B2B-выставка и конференция по искусственному интеллекту, робототехнике, автоматизации, облачным технологиям, данным и корпоративным AI-решениям.",
+      "official_url": "https://www.aiindiaexpo.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-13",
+      "updated_at": "2026-09-13"
+    },
+    {
+      "id": "corrupack-summit-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-11",
+      "end_date": "2027-01-13",
+      "name": "CorruPack Summit 2027",
+      "city": "Хайдарабад",
+      "venue": "HITEX Exhibition Center",
+      "description": "Международный отраслевой саммит и выставка по гофроупаковке, оборудованию, материалам, автоматизации, устойчивому производству и цепочкам поставок.",
+      "official_url": "https://fcbm.org/conference/arriving-at-corrupack-summit",
+      "status": "scheduled",
+      "added_at": "2026-09-13",
+      "updated_at": "2026-09-13"
+    },
+    {
+      "id": "iimb-imr-doctoral-conference-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-11",
+      "end_date": "2027-01-12",
+      "name": "18th IMR Doctoral Conference 2027",
+      "city": "Бенгалуру",
+      "venue": "Indian Institute of Management Bangalore",
+      "description": "Конференция по исследованиям в менеджменте с докладами, панельными дискуссиями, приглашёнными выступлениями и практическими семинарами для исследователей и профессионалов.",
+      "official_url": "https://www.iimb.ac.in/index.php/node/833",
+      "status": "scheduled",
+      "added_at": "2026-09-13",
+      "updated_at": "2026-09-13"
     }
   ]
 }
