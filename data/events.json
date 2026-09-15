@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T13:25:22Z",
+  "generated_at": "2026-09-15T03:02:39Z",
   "horizon_days": 120,
   "events": [
     {
@@ -27,21 +27,6 @@
       "city": "Москва",
       "description": "Серия событий, объединяющих йогу и живую музыку; заметный городской проект, а не регулярный класс.",
       "official_url": "https://yogajournal.ru/events/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "event-2026-09-13-35f3c1861d",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-09-13",
-      "end_date": "2026-09-13",
-      "name": "Пранаяма и звуковая медитация с чашами и гонгом",
-      "city": "Москва",
-      "venue": "Йога-студия «Чакра», Москва",
-      "description": "Практический класс Алеси Капитоновой: пранаяма, звуковая медитация, тибетские поющие чаши и гонг.",
-      "official_url": "https://www.chakrasadhana.ru/category/blizhayshie-seminary",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -314,6 +299,76 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-mrls-tea-brainstorming-session-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-18",
+      "name": "CII Brainstorming Session on MRLs in Tea",
+      "city": "Нью-Дели",
+      "description": "Отраслевая деловая сессия по предельно допустимым уровням остатков в чае, регулированию, качеству продукции и требованиям экспортных рынков.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
+    },
+    {
+      "id": "cii-tamil-nadu-agri-export-logistics-consultation-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-18",
+      "name": "CII Tamil Nadu Agri Export Logistics Stakeholder Consultation 2026",
+      "city": "Ченнаи",
+      "description": "Деловая консультация по развитию агроэкспортной логистики через интегрированные склады, холодовые цепочки и сервисы с добавленной стоимостью.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
+    },
+    {
+      "id": "cii-evolving-landscape-indian-real-estate-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-18",
+      "name": "Conference on Evolving Landscape of Indian Real Estate 2026",
+      "city": "Нью-Дели",
+      "description": "Отраслевая конференция CII по регулированию RERA, коммерческой и жилой недвижимости, технологиям, ESG и инновациям в строительстве.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
+    },
+    {
+      "id": "cii-innovation-edge-manufacturing-competitiveness-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-18",
+      "name": "Innovation Edge — Enabling Manufacturing Competitiveness Through Innovation",
+      "city": "Ченнаи",
+      "description": "Деловая конференция CII о повышении конкурентоспособности производства через инновации, новые технологии и трансформацию промышленных процессов.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
+    },
+    {
+      "id": "cii-mastering-ai-business-performance-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-18",
+      "name": "Mastering AI: Turning AI Potential into Business Performance",
+      "city": "Гуруграм",
+      "description": "Деловая программа CII по превращению корпоративных AI-инициатив в измеримые результаты, производительность и устойчивое конкурентное преимущество.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
+    },
+    {
       "id": "design-democracy-2026-2026-09-18-89f99a7a9e",
       "geography": "IN",
       "category": "business",
@@ -384,6 +439,20 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-iwn-tamil-nadu-vividha-health-360-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-19",
+      "end_date": "2026-09-19",
+      "name": "CII IWN Tamil Nadu — VIVIDHA: Health 360",
+      "city": "Мадурай",
+      "description": "Деловая конференция сети Indian Women Network по здравоохранению, профилактике, wellness и взаимодействию медицинских специалистов и бизнеса.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
+    },
+    {
       "id": "event-2026-09-20-9a31475737",
       "geography": "RU",
       "category": "practices",
@@ -440,6 +509,20 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-northern-region-healthcare-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-22",
+      "name": "8th CII Northern Region Healthcare Summit 2026",
+      "city": "Гуруграм",
+      "description": "Отраслевой саммит CII по инновациям, цифровизации, медицинским технологиям и развитию устойчивой и доступной системы здравоохранения.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
+    },
+    {
       "id": "hometextile-x-design-2026-fieo-2026-09-22-03802fa12a",
       "geography": "RU",
       "category": "business",
@@ -494,6 +577,20 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "cii-telangana-ai-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-23",
+      "name": "CII Telangana AI Summit 2026",
+      "city": "Хайдарабад",
+      "description": "Региональный деловой саммит CII по внедрению искусственного интеллекта, корпоративной цифровой трансформации и развитию технологической экосистемы.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
     },
     {
       "id": "cii-chandigarh-education-summit-2026-2026-09-23-0d99ba389f",
@@ -2788,6 +2885,36 @@
       "status": "scheduled",
       "added_at": "2026-09-13",
       "updated_at": "2026-09-13"
+    },
+    {
+      "id": "coaltrans-india-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-14",
+      "name": "Coaltrans India 2027",
+      "city": "Нью-Дели",
+      "venue": "Taj Palace Hotel",
+      "description": "Крупная международная деловая конференция угольной отрасли для производителей, трейдеров, импортёров, логистических компаний, промышленных потребителей и инвесторов.",
+      "official_url": "https://www.fastmarkets.com/events/ct-india/",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
+    },
+    {
+      "id": "india-battery-critical-materials-conference-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-14",
+      "name": "India Battery & Critical Materials Conference 2027",
+      "city": "Нью-Дели",
+      "venue": "Taj Palace Hotel",
+      "description": "Международная деловая конференция по аккумуляторам и критическим материалам: добыча, переработка, производство ячеек, хранение энергии, рециклинг, инвестиции и цепочки поставок.",
+      "official_url": "https://www.fastmarkets.com/events/india-battery-critical-materials-conference/",
+      "status": "scheduled",
+      "added_at": "2026-09-15",
+      "updated_at": "2026-09-15"
     }
   ]
 }
