@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T03:02:39Z",
+  "generated_at": "2026-09-16T03:06:26Z",
   "horizon_days": 120,
   "events": [
     {
@@ -30,20 +30,6 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
-    },
-    {
-      "id": "cii-ai-cyber-security-summit-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-15",
-      "name": "CII AI Cyber Security Summit 2026",
-      "city": "Чандигарх",
-      "description": "Деловой саммит CII по защите корпоративных систем, управлению рисками и применению искусственного интеллекта в кибербезопасности.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-07",
-      "updated_at": "2026-09-07"
     },
     {
       "id": "bauma-conexpo-india-2026-2026-09-15-b10a1c5817",
@@ -131,6 +117,34 @@
       "updated_at": "2026-09-07"
     },
     {
+      "id": "cii-delhi-green-building-sustainability-roadshow-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-16",
+      "name": "CII Delhi Membership Roadshow — Green Building & Sustainability Services",
+      "city": "Нью-Дели",
+      "description": "Деловая встреча CII по сертификации зелёных зданий, устойчивой инфраструктуре и профильным сервисам для компаний и девелоперов.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076561",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
+    },
+    {
+      "id": "cii-workplace-excellence-bharuch-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-16",
+      "name": "CII Workshop on Workplace Excellence Beyond 5S",
+      "city": "Бхаруч",
+      "description": "Практический семинар для производственных компаний по workplace excellence, бережливым процессам и повышению операционной эффективности сверх базовой методологии 5S.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076640",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
+    },
+    {
       "id": "cii-kerala-family-business-conclave-2026",
       "geography": "IN",
       "category": "business",
@@ -199,6 +213,20 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "cii-iwn-telangana-leadership-conclave-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-17",
+      "name": "CII IWN Telangana Leadership Conclave 2026",
+      "city": "Хайдарабад",
+      "description": "Деловой конклав Indian Women Network по лидерству, развитию руководителей, предпринимательству и профессиональным связям.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076356",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
     },
     {
       "id": "latte-2026-new-delhi",
@@ -495,6 +523,20 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-jipm-tpm-facilitators-course-pune-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-21",
+      "end_date": "2026-09-25",
+      "name": "CII–JIPM TPM Facilitators Course 2026",
+      "city": "Пуна",
+      "description": "Пятидневная сертификационная программа CII и JIPM для специалистов по Total Productive Maintenance, надёжности оборудования и производственной эффективности.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076488",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
+    },
+    {
       "id": "9th-india-international-water-week-2026-2026-09-22-b0ef140f2f",
       "geography": "IN",
       "category": "business",
@@ -521,6 +563,34 @@
       "status": "scheduled",
       "added_at": "2026-09-15",
       "updated_at": "2026-09-15"
+    },
+    {
+      "id": "cii-cel-business-transformation-workshop-kolkata-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-23",
+      "name": "CII CEL Business Transformation Workshop for Micro and Small Entrepreneurs",
+      "city": "Калькутта",
+      "description": "Двухдневный практический семинар для микро- и малых предприятий по трансформации бизнеса, производительности, управлению процессами и устойчивому росту.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076565",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
+    },
+    {
+      "id": "cii-ai-enabled-banking-nbfc-workshop-kerala-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-23",
+      "name": "CII Workshop on AI-Enabled Banking & NBFC",
+      "city": "Эрнакулам",
+      "description": "Двухдневная программа для банков и NBFC по основам искусственного интеллекта и созданию прикладных AI-решений для финансовых процессов.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076224",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
     },
     {
       "id": "hometextile-x-design-2026-fieo-2026-09-22-03802fa12a",
@@ -635,6 +705,20 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cii-safety-symposium-exhibition-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-25",
+      "name": "20th CII Safety Symposium & Exhibition 2026",
+      "city": "Калькутта",
+      "description": "Отраслевая конференция и выставка CII по промышленной безопасности, охране труда, управлению рисками и технологиям безопасного производства.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076432",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
+    },
+    {
       "id": "event-2026-09-24-81fc5a8035",
       "geography": "RU",
       "category": "practices",
@@ -746,6 +830,20 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "cii-vidarbha-it-conclave-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
+      "name": "CII Vidarbha IT Conclave 4.0",
+      "city": "Нагпур",
+      "description": "Региональный деловой форум CII по IT-индустрии, цифровой трансформации, технологическому предпринимательству и развитию экосистемы Видарбхи.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
     },
     {
       "id": "international-real-estate-conference-irec-2026-2026-09-26-5cf6c82f2e",
@@ -2430,6 +2528,21 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "cement-expo-2026-greater-noida",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-15",
+      "end_date": "2026-12-17",
+      "name": "16th Cement Expo 2026",
+      "city": "Грейтер-Нойда",
+      "venue": "India Expo Centre & Mart",
+      "description": "Профессиональная выставка цементной и бетонной отрасли для производителей, поставщиков оборудования, технологий, материалов и инфраструктурных компаний.",
+      "official_url": "https://cementexpo.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
+    },
+    {
       "id": "met-hts-2026-navi-mumbai",
       "geography": "IN",
       "category": "business",
@@ -2915,6 +3028,51 @@
       "status": "scheduled",
       "added_at": "2026-09-15",
       "updated_at": "2026-09-15"
+    },
+    {
+      "id": "india-medtech-expo-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-16",
+      "name": "3rd India MedTech Expo 2027",
+      "city": "Грейтер-Нойда",
+      "venue": "India Expo Centre & Mart",
+      "description": "Международная B2B-выставка медицинских изделий и технологий с производителями, стартапами, закупщиками, R&D-проектами и площадкой для деловых встреч.",
+      "official_url": "https://indiamedtechexpo.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
+    },
+    {
+      "id": "idac-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-16",
+      "name": "iDAC Delhi 2027",
+      "city": "Нью-Дели",
+      "venue": "NSIC Exhibition Ground, Okhla",
+      "description": "Профессиональная выставка и конференция по архитектуре, дизайну и строительству с брендами, архитекторами, консультантами и отраслевыми руководителями.",
+      "official_url": "https://idacexpo.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
+    },
+    {
+      "id": "eo-south-asia-rie-jaipur-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-17",
+      "name": "EO South Asia Regional Integration Event 2027",
+      "city": "Джайпур",
+      "venue": "Fairmont Jaipur",
+      "description": "Региональная конференция Entrepreneurs’ Organization для владельцев бизнеса из Южной Азии с образовательной программой, обменом опытом и деловыми связями.",
+      "official_url": "https://www.rie2027.co.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-16",
+      "updated_at": "2026-09-16"
     }
   ]
 }
