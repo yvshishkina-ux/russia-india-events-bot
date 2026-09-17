@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-16T03:06:26Z",
+  "generated_at": "2026-09-17T03:02:32Z",
   "horizon_days": 120,
   "events": [
     {
@@ -41,20 +41,6 @@
       "city": "Грейтер-Нойда",
       "description": "Международная выставка строительной и горной техники, машин для стройматериалов и коммерческого транспорта.",
       "official_url": "https://bcindia.com/en/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "world-circular-economy-forum-2026-wcef2026-2026-09-15-3d03c1fb6a",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-15",
-      "end_date": "2026-09-16",
-      "name": "World Circular Economy Forum 2026 (WCEF2026)",
-      "city": "Гандинагар",
-      "description": "Глобальный форум по циркулярной экономике, рыночной трансформации, финансированию, политике и бизнес-стратегиям.",
-      "official_url": "https://wcef2026.cpcb.gov.in/",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -115,62 +101,6 @@
       "status": "scheduled",
       "added_at": "2026-09-07",
       "updated_at": "2026-09-07"
-    },
-    {
-      "id": "cii-delhi-green-building-sustainability-roadshow-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-16",
-      "end_date": "2026-09-16",
-      "name": "CII Delhi Membership Roadshow — Green Building & Sustainability Services",
-      "city": "Нью-Дели",
-      "description": "Деловая встреча CII по сертификации зелёных зданий, устойчивой инфраструктуре и профильным сервисам для компаний и девелоперов.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076561",
-      "status": "scheduled",
-      "added_at": "2026-09-16",
-      "updated_at": "2026-09-16"
-    },
-    {
-      "id": "cii-workplace-excellence-bharuch-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-16",
-      "end_date": "2026-09-16",
-      "name": "CII Workshop on Workplace Excellence Beyond 5S",
-      "city": "Бхаруч",
-      "description": "Практический семинар для производственных компаний по workplace excellence, бережливым процессам и повышению операционной эффективности сверх базовой методологии 5S.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076640",
-      "status": "scheduled",
-      "added_at": "2026-09-16",
-      "updated_at": "2026-09-16"
-    },
-    {
-      "id": "cii-kerala-family-business-conclave-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-16",
-      "end_date": "2026-09-16",
-      "name": "6th CII Kerala Family Business Conclave 2026",
-      "city": "Кочи",
-      "description": "Региональный конклав для владельцев семейного бизнеса по преемственности, корпоративному управлению, росту и долгосрочной стратегии.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076238",
-      "status": "scheduled",
-      "added_at": "2026-09-11",
-      "updated_at": "2026-09-11"
-    },
-    {
-      "id": "cii-green-manufacturing-conclave-kolhapur-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-16",
-      "end_date": "2026-09-16",
-      "name": "CII Green Manufacturing Conclave Kolhapur 2026",
-      "city": "Колхапур",
-      "description": "Деловой конклав CII по экологичной модернизации производства, энерго- и ресурсоэффективности и устойчивым промышленным технологиям.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076344",
-      "status": "scheduled",
-      "added_at": "2026-09-11",
-      "updated_at": "2026-09-11"
     },
     {
       "id": "energy-efficiency-summit-hyderabad-2026",
@@ -3073,6 +3003,35 @@
       "status": "scheduled",
       "added_at": "2026-09-16",
       "updated_at": "2026-09-16"
+    },
+    {
+      "id": "global-trade-india-expo-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-15",
+      "end_date": "2027-01-17",
+      "name": "Global Trade India Expo 2027",
+      "city": "Калькутта",
+      "venue": "Biswa Bangla Mela Prangan",
+      "description": "Международная мультисекторальная B2B-выставка для индийских производителей, экспортёров и зарубежных закупщиков с программой деловых встреч и sourcing.",
+      "official_url": "https://globaltradeindiaexpo.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-17",
+      "updated_at": "2026-09-17"
+    },
+    {
+      "id": "stanford-global-economic-forum-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-15",
+      "end_date": "2027-01-17",
+      "name": "Stanford Global Economic Forum 2027",
+      "city": "Мумбаи",
+      "description": "Международный экономический форум Stanford GSB для исследователей, руководителей бизнеса и приглашённых участников по росту, инновациям и устойчивой экономической политике.",
+      "official_url": "https://www.gsb.stanford.edu/events/stanford-global-economic-forum",
+      "status": "scheduled",
+      "added_at": "2026-09-17",
+      "updated_at": "2026-09-17"
     }
   ]
 }
