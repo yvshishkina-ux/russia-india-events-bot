@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T03:02:32Z",
+  "generated_at": "2026-09-18T03:03:50Z",
   "horizon_days": 120,
   "events": [
     {
@@ -129,34 +129,6 @@
       "status": "scheduled",
       "added_at": "2026-09-12",
       "updated_at": "2026-09-12"
-    },
-    {
-      "id": "4th-assocham-national-health-wellness-summit-2026-2026-09-17-a063a70f65",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-17",
-      "name": "4th ASSOCHAM National Health & Wellness Summit 2026",
-      "city": "Нью-Дели",
-      "description": "Отраслевой саммит по healthcare, preventive care, wellness, digital health, medical value travel и государственно-частным партнёрствам.",
-      "official_url": "https://www.assocham.org/event-detail.php?event=4th-health-wellness-summit-2026",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "cii-iwn-telangana-leadership-conclave-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-17",
-      "name": "CII IWN Telangana Leadership Conclave 2026",
-      "city": "Хайдарабад",
-      "description": "Деловой конклав Indian Women Network по лидерству, развитию руководителей, предпринимательству и профессиональным связям.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076356",
-      "status": "scheduled",
-      "added_at": "2026-09-16",
-      "updated_at": "2026-09-16"
     },
     {
       "id": "latte-2026-new-delhi",
@@ -3032,6 +3004,80 @@
       "status": "scheduled",
       "added_at": "2026-09-17",
       "updated_at": "2026-09-17"
+    },
+    {
+      "id": "new-delhi-world-book-fair-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-16",
+      "end_date": "2027-01-24",
+      "name": "New Delhi World Book Fair 2027",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Крупная международная ярмарка издательской отрасли с 1200+ экспонентами, B2B-программой, конференцией руководителей и площадкой обмена издательскими правами.",
+      "official_url": "https://www.nbtindia.gov.in/ndwbf2027/",
+      "status": "scheduled",
+      "added_at": "2026-09-18",
+      "updated_at": "2026-09-18"
+    },
+    {
+      "id": "kisantech-india-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-16",
+      "end_date": "2027-01-18",
+      "name": "KisanTech India 2027",
+      "city": "Читторгарх",
+      "description": "Аграрная и молочная B2B/B2C-выставка по сельхозтехнике, agri-tech, животноводству, irrigation, устойчивому производству и деловым связям.",
+      "official_url": "https://kisantechindia.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-18",
+      "updated_at": "2026-09-18"
+    },
+    {
+      "id": "salon-du-chocolat-india-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-16",
+      "end_date": "2027-01-17",
+      "name": "Salon du Chocolat et de la Pâtisserie India 2027",
+      "city": "Мумбаи",
+      "venue": "Jio World Convention Centre",
+      "description": "Международная B2B/B2C-площадка шоколадной и кондитерской отрасли с брендами, производителями, профильной конференцией и деловыми контактами.",
+      "official_url": "https://salonduchocolatindia.com/home-page-2026/",
+      "status": "scheduled",
+      "added_at": "2026-09-18",
+      "updated_at": "2026-09-18"
+    },
+    {
+      "id": "icetdt-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-16",
+      "end_date": "2027-01-16",
+      "name": "International Conference on Emerging Trends in Digital Technologies 2027",
+      "city": "Мумбаи",
+      "venue": "Usha Pravin Gandhi College, Vile Parle",
+      "description": "Гибридная международная конференция для исследователей и индустриальных специалистов по AI, данным, кибербезопасности, автоматизации и цифровым технологиям.",
+      "official_url": "https://www.upgcm.ac.in/InternationalConference2027.html",
+      "status": "scheduled",
+      "added_at": "2026-09-18",
+      "updated_at": "2026-09-18"
+    },
+    {
+      "id": "bazaar-manthan-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-16",
+      "end_date": "2027-01-16",
+      "name": "Bazaar Manthan 2.0",
+      "city": "Мумбаи",
+      "venue": "Hotel Sahara Star",
+      "description": "Деловая программа для ювелиров, участников рынка драгоценных металлов, товарных трейдеров и инвесторов по рыночной стратегии, рискам и аналитике.",
+      "official_url": "https://bazaarmanthan.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-18",
+      "updated_at": "2026-09-18"
     }
   ]
 }
