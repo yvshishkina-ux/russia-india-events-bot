@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-20T03:06:11Z",
+  "generated_at": "2026-09-20T17:48:22Z",
   "horizon_days": 120,
   "events": [
     {
@@ -3102,6 +3102,20 @@
       "updated_at": "2026-09-19"
     },
     {
+      "id": "inter-steel-show-ranchi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-16",
+      "end_date": "2027-01-18",
+      "name": "4th Inter Steel Show 2027",
+      "city": "Ранчи",
+      "description": "Профессиональная выставка сталелитейной, горнодобывающей, энергетической и цементной отраслей с оборудованием, технологиями, демонстрациями и B2B-встречами.",
+      "official_url": "https://intersteelshow.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
+    },
+    {
       "id": "cbip-power-system-protection-automation-goa-2027",
       "geography": "IN",
       "category": "business",
@@ -3112,6 +3126,66 @@
       "venue": "Siemens Power Academy",
       "description": "Профессиональная программа Центрального совета по ирригации и энергетике Индии по проектированию, расчётам, защите и автоматизации энергосистем.",
       "official_url": "https://www.cbip.org/event/TrainingCalendar.pdf",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
+    },
+    {
+      "id": "asci-generative-ai-for-managers-jan-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-18",
+      "end_date": "2027-01-20",
+      "name": "ASCI Generative AI for Managers — Batch 2",
+      "city": "Хайдарабад",
+      "venue": "Administrative Staff College of India (ASCI)",
+      "description": "Программа для руководителей по применению генеративного ИИ в бизнесе, ответственному внедрению, этике, управлению рисками и корпоративному контролю.",
+      "official_url": "https://asci.org.in/uploads/media/2026/04/1777015205_69eb19a52ea4f_cms-mdp-book.pdf",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
+    },
+    {
+      "id": "asci-emerging-procurement-contract-management-jan-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-18",
+      "end_date": "2027-01-20",
+      "name": "ASCI Emerging Trends in Procurement and Contract Management — Batch 2",
+      "city": "Хайдарабад",
+      "venue": "Administrative Staff College of India (ASCI)",
+      "description": "Программа для специалистов по закупкам и контрактам о цифровых технологиях, ИИ, блокчейне, аналитике данных, управлении поставщиками и закупочном контроле.",
+      "official_url": "https://asci.org.in/uploads/media/2026/04/1777015205_69eb19a52ea4f_cms-mdp-book.pdf",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
+    },
+    {
+      "id": "asci-finance-for-non-finance-professionals-jan-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-18",
+      "end_date": "2027-01-22",
+      "name": "ASCI Finance for Non-Finance Professionals — Batch 3",
+      "city": "Хайдарабад",
+      "venue": "Administrative Staff College of India (ASCI)",
+      "description": "Программа для нефинансовых руководителей по финансовой отчётности, бюджетированию, анализу проектов, управлению затратами и принятию деловых решений.",
+      "official_url": "https://asci.org.in/uploads/media/2026/04/1777015205_69eb19a52ea4f_cms-mdp-book.pdf",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
+    },
+    {
+      "id": "asci-public-procurement-principles-jan-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-18",
+      "end_date": "2027-01-22",
+      "name": "ASCI Public Procurement Principles — Batch 9",
+      "city": "Хайдарабад",
+      "venue": "Administrative Staff College of India (ASCI)",
+      "description": "Профессиональная программа по принципам государственных закупок, правилам и процедурам, GeM, тендерам, контрактам и управлению закупочными рисками.",
+      "official_url": "https://asci.org.in/uploads/media/2026/04/1777015205_69eb19a52ea4f_cms-mdp-book.pdf",
       "status": "scheduled",
       "added_at": "2026-09-20",
       "updated_at": "2026-09-20"
