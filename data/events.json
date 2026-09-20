@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-19T03:06:10Z",
+  "generated_at": "2026-09-20T03:06:11Z",
   "horizon_days": 120,
   "events": [
     {
@@ -46,20 +46,6 @@
       "updated_at": "2026-09-12"
     },
     {
-      "id": "latte-2026-new-delhi",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-19",
-      "name": "LATTE 2026",
-      "city": "Нью-Дели",
-      "description": "B2B-выставка туристической индустрии стран Латинской Америки и Карибского бассейна для индийских покупателей, туроператоров и MICE-партнёров.",
-      "official_url": "https://latte.co.in/",
-      "status": "scheduled",
-      "added_at": "2026-09-07",
-      "updated_at": "2026-09-07"
-    },
-    {
       "id": "crop-nexa-2026-2026-09-17-b6fb6177e6",
       "geography": "IN",
       "category": "business",
@@ -69,62 +55,6 @@
       "city": "Ченнаи",
       "description": "Международный агробизнес-конклав по технологиям, устойчивому сельскому хозяйству, переработке, торговле и инвестициям.",
       "official_url": "https://www.cropnexa.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "media-expo-new-delhi-2026-2026-09-17-5e6f4400f0",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-19",
-      "name": "Media Expo New Delhi 2026",
-      "city": "Нью-Дели",
-      "description": "B2B-выставка технологий печати, signage, наружной рекламы и визуальных коммуникаций.",
-      "official_url": "https://www.themediaexpo.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "medical-fair-india-2026-mumbai-2026-09-17-2b385d176f",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-19",
-      "name": "Medical Fair India 2026 — Mumbai",
-      "city": "Мумбаи",
-      "description": "Международная B2B-выставка и конференция для больниц, клиник, medtech и поставщиков медицинской отрасли.",
-      "official_url": "https://www.medicalfair-india.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "semicon-india-2026-2026-09-17-aae3d59058",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-19",
-      "name": "SEMICON India 2026",
-      "city": "Нью-Дели",
-      "description": "Крупная международная конференция и выставка полупроводниковой индустрии, инвестиций и цепочек поставок.",
-      "official_url": "https://www.semiconindia.org/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "tools-equipment-expo-2026-2026-09-17-ec9fd3db67",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-19",
-      "name": "Tools & Equipment Expo 2026",
-      "city": "Нью-Дели",
-      "description": "Промышленная B2B-выставка ручного и электроинструмента, сварки, резки, оборудования и автоматизации.",
-      "official_url": "https://toolsequipmentexpo.com/",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -158,20 +88,6 @@
       "updated_at": "2026-09-05"
     },
     {
-      "id": "icc-global-business-summit-2026-2026-09-18-ac344f78ea",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-18",
-      "end_date": "2026-09-19",
-      "name": "ICC Global Business Summit 2026",
-      "city": "Нью-Дели",
-      "description": "Международный бизнес-саммит по инвестициям, трансграничному сотрудничеству, торговле и корпоративным партнёрствам.",
-      "official_url": "https://www.icc-gbs.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
       "id": "indexplus-mumbai-2026-2026-09-18-bb4972be31",
       "geography": "IN",
       "category": "business",
@@ -198,34 +114,6 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
-    },
-    {
-      "id": "cii-iwn-tamil-nadu-vividha-health-360-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-19",
-      "end_date": "2026-09-19",
-      "name": "CII IWN Tamil Nadu — VIVIDHA: Health 360",
-      "city": "Мадурай",
-      "description": "Деловая конференция сети Indian Women Network по здравоохранению, профилактике, wellness и взаимодействию медицинских специалистов и бизнеса.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-15",
-      "updated_at": "2026-09-15"
-    },
-    {
-      "id": "cii-yi-jaipur-scaling-up-business-workshop-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-19",
-      "end_date": "2026-09-19",
-      "name": "Yi Jaipur Workshop on Scaling Up Your Business",
-      "city": "Джайпур",
-      "description": "Практический семинар CII Young Indians для предпринимателей по масштабированию бизнеса, системам роста и управленческим решениям.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076714",
-      "status": "scheduled",
-      "added_at": "2026-09-19",
-      "updated_at": "2026-09-19"
     },
     {
       "id": "event-2026-09-20-9a31475737",
@@ -648,6 +536,20 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "assocham-msme-2-chennai-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-25",
+      "name": "MSME 2.0 — From Compliance to Competitiveness",
+      "city": "Ченнаи",
+      "description": "Отраслевая конференция ASSOCHAM для малого и среднего бизнеса по поправкам к закону о МСП, доступу к кредитованию, денежным потокам, TReDS, комплаенсу и выходу на глобальные рынки.",
+      "official_url": "https://assocham.org/event-detail.php?event=msme-2-0-from-compliance-to-competitiveness-unlocking-credit-cash-flow-technology-global-markets-chennai",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
+    },
+    {
       "id": "hblf-show-2026-2026-09-25-c7b6d648d7",
       "geography": "IN",
       "category": "business",
@@ -703,6 +605,21 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "oog-2026-iit-madras",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-09-27",
+      "end_date": "2026-09-29",
+      "name": "International Workshop on Offshore Oil & Gas 2026",
+      "city": "Ченнаи",
+      "venue": "TTJ Auditorium, ICSR, IIT Madras",
+      "description": "Международный отраслевой воркшоп IIT Madras для нефтегазовых компаний, инженеров, разработчиков технологий и регуляторов по морской разведке, добыче и устойчивой инфраструктуре.",
+      "official_url": "https://ge.iitm.ac.in/oog-2026",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
     },
     {
       "id": "cii-vidarbha-it-conclave-2026",
@@ -1316,14 +1233,29 @@
       "geography": "RU",
       "category": "culture",
       "start_date": "2026-10-14",
-      "end_date": "2026-10-17",
+      "end_date": "2026-10-16",
       "name": "Фестиваль индийского кино в рамках TIME",
       "city": "Казань",
       "description": "Фестиваль индийского кино в кинотеатре «Мир» в рамках российско-индийской недели TIME.",
       "official_url": "https://time-forum.ru/program2026",
       "status": "scheduled",
       "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
+      "updated_at": "2026-09-20"
+    },
+    {
+      "id": "time-book-presentation-kazan-2026",
+      "geography": "RU",
+      "category": "culture",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "name": "Презентация индийской литературы на форуме TIME",
+      "city": "Казань",
+      "venue": "Национальная библиотека Республики Татарстан",
+      "description": "Культурная программа Генерального консульства Индии в Казани: книги индийских авторов на хинди, русские переводы индийской литературы и диалог переводчиков, филологов и студентов.",
+      "official_url": "https://time-forum.ru/program2026",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
     },
     {
       "id": "event-2026-10-15-bd07967b77",
@@ -1562,6 +1494,21 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "cii-cost-congress-pune-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-27",
+      "name": "25th CII Cost Congress",
+      "city": "Пуна",
+      "venue": "JW Marriott Hotel Pune",
+      "description": "Юбилейная международная конференция CII по конкурентоспособности бизнеса, инновациям, устойчивости, декарбонизации, экспорту, технологиям, человеческому капиталу и управлению затратами.",
+      "official_url": "https://costcongress.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
     },
     {
       "id": "bharat-global-cultural-expo-2026-2026-10-28-5f30451bd2",
@@ -1901,6 +1848,20 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "assocham-manufacturing-conclave-kolkata-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "name": "5th ASSOCHAM Manufacturing Conclave & Business Excellence Awards",
+      "city": "Калькутта",
+      "description": "Отраслевой конклав по умному производству, AI, автоматизации, устойчивости, цепочкам поставок и глобальной конкурентоспособности МСП, совмещённый с премией делового совершенства.",
+      "official_url": "https://www.assocham.org/event-detail.php?event=5th-edition-manufacturing-conclave-2026-business-excellence-awards",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
     },
     {
       "id": "cphi-india-2026-2026-11-23-0a15af6a75",
@@ -2603,6 +2564,21 @@
       "updated_at": "2026-09-06"
     },
     {
+      "id": "aims-international-conference-management-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-22",
+      "end_date": "2026-12-24",
+      "name": "24th AIMS International Conference on Management",
+      "city": "Рурки",
+      "venue": "Indian Institute of Technology Roorkee",
+      "description": "Международная конференция по менеджменту и корпоративному применению ИИ для исследователей и практиков в финансах, маркетинге, HR, предпринимательстве, операциях и стратегии.",
+      "official_url": "https://aims-international.org/aims24/",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
+    },
+    {
       "id": "jaipur-jewellery-show-2026",
       "geography": "IN",
       "category": "business",
@@ -3124,6 +3100,51 @@
       "status": "scheduled",
       "added_at": "2026-09-19",
       "updated_at": "2026-09-19"
+    },
+    {
+      "id": "cbip-power-system-protection-automation-goa-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-18",
+      "end_date": "2027-01-20",
+      "name": "CBIP Training on Power System Protection & Automation Engineering",
+      "city": "Гоа",
+      "venue": "Siemens Power Academy",
+      "description": "Профессиональная программа Центрального совета по ирригации и энергетике Индии по проектированию, расчётам, защите и автоматизации энергосистем.",
+      "official_url": "https://www.cbip.org/event/TrainingCalendar.pdf",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
+    },
+    {
+      "id": "iistd-executive-development-jim-corbett-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-18",
+      "end_date": "2027-01-20",
+      "name": "IISTD Executive Development Programme — Jim Corbett",
+      "city": "Джим-Корбетт, Уттаракханд",
+      "venue": "Corbett The Grand",
+      "description": "Трёхдневная программа повышения квалификации для руководителей органов власти, государственных предприятий, университетов и автономных организаций по управлению, финансам, технологиям и комплаенсу.",
+      "official_url": "https://iistd.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
+    },
+    {
+      "id": "icnmmf-6-iit-madras-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-18",
+      "end_date": "2027-01-20",
+      "name": "6th International Conference on Numerical Methods in Multiphase Flows",
+      "city": "Ченнаи",
+      "venue": "Indian Institute of Technology Madras",
+      "description": "Международная профессиональная конференция по CFD, многофазным потокам, высокопроизводительным вычислениям, машинному обучению и промышленным приложениям моделирования.",
+      "official_url": "https://ge.iitm.ac.in/icnmmf-6",
+      "status": "scheduled",
+      "added_at": "2026-09-20",
+      "updated_at": "2026-09-20"
     }
   ]
 }
