@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-20T17:48:22Z",
+  "generated_at": "2026-09-21T03:03:58Z",
   "horizon_days": 120,
   "events": [
     {
@@ -44,90 +44,6 @@
       "status": "scheduled",
       "added_at": "2026-09-12",
       "updated_at": "2026-09-12"
-    },
-    {
-      "id": "crop-nexa-2026-2026-09-17-b6fb6177e6",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-20",
-      "name": "Crop Nexa 2026",
-      "city": "Ченнаи",
-      "description": "Международный агробизнес-конклав по технологиям, устойчивому сельскому хозяйству, переработке, торговле и инвестициям.",
-      "official_url": "https://www.cropnexa.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "design-democracy-2026-2026-09-18-89f99a7a9e",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-18",
-      "end_date": "2026-09-20",
-      "name": "Design Democracy 2026",
-      "city": "Хайдарабад",
-      "description": "Выставка и деловая площадка по дизайну, архитектуре, интерьерам, материалам и профильным брендам.",
-      "official_url": "https://hitex.co.in/events/design-democracy-2026/index.html",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "garment-technology-expo-bengaluru-2026-2026-09-18-5bc3b17f84",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-18",
-      "end_date": "2026-09-20",
-      "name": "Garment Technology Expo Bengaluru 2026",
-      "city": "Бенгалуру",
-      "description": "B2B-выставка оборудования, автоматизации и технологий для швейного и текстильного производства.",
-      "official_url": "https://garmenttechnologyexpo.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "indexplus-mumbai-2026-2026-09-18-bb4972be31",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-18",
-      "end_date": "2026-09-20",
-      "name": "INDEXPLUS Mumbai 2026",
-      "city": "Мумбаи",
-      "description": "B2B-платформа для мебельной, интерьерной и архитектурной индустрии с выставкой и Design Talks.",
-      "official_url": "https://www.indexplus.in/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "mumbaiwood-2026-2026-09-18-801fbecfe3",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-18",
-      "end_date": "2026-09-20",
-      "name": "MumbaiWood 2026",
-      "city": "Мумбаи",
-      "description": "Профессиональная B2B-выставка деревообработки, мебельного производства, материалов и промышленного оборудования.",
-      "official_url": "https://indiawood.com/mumbaiwood",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "event-2026-09-20-9a31475737",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-09-20",
-      "end_date": "2026-09-20",
-      "name": "Йога Юга Фест",
-      "city": "Ростов-на-Дону",
-      "description": "Региональный фестиваль йоги и практик. Включён в смежный культурно-практический контур, который использовали для московской подборки.",
-      "official_url": "https://yogajournal.ru/events/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
     },
     {
       "id": "53rd-aima-national-management-convention-2026-09-21-37a94abe9e",
@@ -1117,6 +1033,20 @@
       "updated_at": "2026-09-05"
     },
     {
+      "id": "assocham-india-mines-minerals-conclave-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "name": "ASSOCHAM India Mines & Minerals Conclave 2026",
+      "city": "Нью-Дели",
+      "description": "Отраслевой конклав по реформам горнодобывающего сектора, критическим минералам, ресурсной безопасности, цифровизации, оборудованию, инвестициям и устойчивой добыче.",
+      "official_url": "https://www.assocham.org/assocham_backend/event-detail.php?event=india-mines-minerals-conclave-2026",
+      "status": "scheduled",
+      "added_at": "2026-09-21",
+      "updated_at": "2026-09-21"
+    },
+    {
       "id": "mobilitynext-2047-driving-innovation-partnerships-and-policy-for-electri-2026-10-09-58ae6564d0",
       "geography": "IN",
       "category": "business",
@@ -1480,6 +1410,20 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
+    },
+    {
+      "id": "assocham-agritech-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "name": "4th ASSOCHAM AgriTech Summit 2026",
+      "city": "Нью-Дели",
+      "description": "Деловой саммит по цифровому и климатически устойчивому сельскому хозяйству, точному земледелию, агротехнологиям, роботизации, инвестициям и развитию agri-tech стартапов.",
+      "official_url": "https://www.assocham.org/assocham_backend/event-detail.php?event=4th-agritech-smart-farming-sustainable-future",
+      "status": "scheduled",
+      "added_at": "2026-09-21",
+      "updated_at": "2026-09-21"
     },
     {
       "id": "samvad-2026-global-multilingual-ecosystem-summit-2026-10-26-0d93ccae15",
@@ -2609,6 +2553,20 @@
       "updated_at": "2026-09-06"
     },
     {
+      "id": "assocham-manufacturing-conclave-bhubaneswar-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-12-31",
+      "end_date": "2026-12-31",
+      "name": "3rd ASSOCHAM Manufacturing Conclave & Manufacturing Excellence Awards 2026",
+      "city": "Бхубанешвар",
+      "description": "Отраслевой конклав и премия по промышленной конкурентоспособности, инновациям, цифровизации, логистике, устойчивому производству и деловому лидерству.",
+      "official_url": "https://www.assocham.org/assocham_backend/event-detail.php?event=3rd-edition-of-manufacturing-conclave-manufacturing-excellence-awards-2026",
+      "status": "scheduled",
+      "added_at": "2026-09-21",
+      "updated_at": "2026-09-21"
+    },
+    {
       "id": "bangalore-neuromorphic-engineering-workshop-2027",
       "geography": "IN",
       "category": "business",
@@ -3219,6 +3177,21 @@
       "status": "scheduled",
       "added_at": "2026-09-20",
       "updated_at": "2026-09-20"
+    },
+    {
+      "id": "atithi-rbsm-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-19",
+      "end_date": "2027-01-21",
+      "name": "ATITHI 2027 — Reverse Buyer-Seller Meet",
+      "city": "Нью-Дели",
+      "venue": "Yashobhoomi, India International Convention & Expo Centre, Dwarka",
+      "description": "Международная B2B-площадка SEPC и SATTE по туризму, гостеприимству и экспорту услуг с зарубежными покупателями, отраслевыми компаниями и государственными участниками.",
+      "official_url": "https://www.indembassyuae.gov.in/section/news/invitation-for-atithi-2027/",
+      "status": "scheduled",
+      "added_at": "2026-09-21",
+      "updated_at": "2026-09-21"
     }
   ]
 }
