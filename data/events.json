@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T03:03:58Z",
+  "generated_at": "2026-09-22T03:04:49Z",
   "horizon_days": 120,
   "events": [
     {
@@ -3179,6 +3179,21 @@
       "updated_at": "2026-09-20"
     },
     {
+      "id": "rvu-international-economics-business-conference-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-19",
+      "end_date": "2027-01-20",
+      "name": "International Conference on Economics & Business 2027",
+      "city": "Бенгалуру",
+      "venue": "RV University",
+      "description": "Международная конференция Школы экономики и бизнеса RV University по инновациям, устойчивым бизнес-моделям, финансам, управлению, маркетингу и регенеративной экономике.",
+      "official_url": "https://rvu.edu.in/events/international-conference-2027/",
+      "status": "scheduled",
+      "added_at": "2026-09-22",
+      "updated_at": "2026-09-22"
+    },
+    {
       "id": "atithi-rbsm-new-delhi-2027",
       "geography": "IN",
       "category": "business",
@@ -3192,6 +3207,79 @@
       "status": "scheduled",
       "added_at": "2026-09-21",
       "updated_at": "2026-09-21"
+    },
+    {
+      "id": "pu-tech-india-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-22",
+      "name": "PU TECH India 2027",
+      "city": "Грейтер-Нойда",
+      "venue": "India Expo Centre & Mart",
+      "description": "Международная выставка и конференция полиуретановой индустрии для производителей, поставщиков сырья и оборудования, технологических компаний и профессиональных покупателей.",
+      "official_url": "https://putechindia.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-22",
+      "updated_at": "2026-09-22"
+    },
+    {
+      "id": "global-capability-centers-hyderabad-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-20",
+      "name": "Global Capability Centers Summit 2027 — Hyderabad",
+      "city": "Хайдарабад",
+      "description": "Деловой саммит руководителей глобальных центров компетенций по корпоративной стратегии, ИИ, цифровой трансформации, продуктовой разработке, кадрам и кибербезопасности.",
+      "official_url": "https://hyderabadgccsummit.com/",
+      "status": "scheduled",
+      "added_at": "2026-09-22",
+      "updated_at": "2026-09-22"
+    },
+    {
+      "id": "icorgt-isi-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-22",
+      "name": "International Conference on Operations Research and Game Theory with Economic Applications",
+      "city": "Нью-Дели",
+      "venue": "Indian Statistical Institute, Delhi Centre",
+      "description": "Международная профессиональная конференция по исследованию операций, теории игр, экономическим приложениям и аналитическим методам для исследователей и представителей индустрии.",
+      "official_url": "https://www.isid.ac.in/~icorgt27/regicor27.html",
+      "status": "scheduled",
+      "added_at": "2026-09-22",
+      "updated_at": "2026-09-22"
+    },
+    {
+      "id": "osiicon-pune-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-22",
+      "name": "OSIICON-27",
+      "city": "Пуна",
+      "venue": "Indian Institute of Tropical Meteorology",
+      "description": "Международная конференция по океанологии, климату, инженерии и синей экономике с отраслевым нетворкингом, выставочным контуром и участием технологических специалистов.",
+      "official_url": "https://osicon27.in/index.php",
+      "status": "scheduled",
+      "added_at": "2026-09-22",
+      "updated_at": "2026-09-22"
+    },
+    {
+      "id": "dei-bootcamp-goa-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-22",
+      "name": "DEI Bootcamp 2027 — The GOA Project",
+      "city": "Гоа",
+      "description": "Трёхдневная программа для руководителей по организационной культуре, инклюзии, психологической безопасности и практическому управлению корпоративными изменениями.",
+      "official_url": "https://deibootcamp.in/dei-bootcamp-schedule",
+      "status": "scheduled",
+      "added_at": "2026-09-22",
+      "updated_at": "2026-09-22"
     }
   ]
 }
