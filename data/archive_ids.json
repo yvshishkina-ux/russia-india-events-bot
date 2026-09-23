@@ -269,6 +269,22 @@
     {
       "id": "event-2026-09-20-9a31475737",
       "ended_on": "2026-09-20"
+    },
+    {
+      "id": "53rd-aima-national-management-convention-2026-09-21-37a94abe9e",
+      "ended_on": "2026-09-22"
+    },
+    {
+      "id": "gartner-data-analytics-summit-2026-2026-09-21-620ff81106",
+      "ended_on": "2026-09-22"
+    },
+    {
+      "id": "cii-northern-region-healthcare-summit-2026",
+      "ended_on": "2026-09-22"
+    },
+    {
+      "id": "cii-cel-business-transformation-vapi-2026",
+      "ended_on": "2026-09-22"
     }
   ]
 }

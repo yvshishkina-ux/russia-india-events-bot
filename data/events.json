@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T03:04:49Z",
+  "generated_at": "2026-09-23T03:42:23Z",
   "horizon_days": 120,
   "events": [
     {
@@ -46,34 +46,6 @@
       "updated_at": "2026-09-12"
     },
     {
-      "id": "53rd-aima-national-management-convention-2026-09-21-37a94abe9e",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-21",
-      "end_date": "2026-09-22",
-      "name": "53rd AIMA National Management Convention",
-      "city": "Нью-Дели",
-      "description": "Флагманская управленческая конвенция AIMA для руководителей бизнеса, государства и отраслевых лидеров.",
-      "official_url": "https://events.aima.in/nmc-2026/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "gartner-data-analytics-summit-2026-2026-09-21-620ff81106",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-21",
-      "end_date": "2026-09-22",
-      "name": "Gartner Data & Analytics Summit 2026",
-      "city": "Мумбаи",
-      "description": "Конференция для CDAO, руководителей по данным и ИИ по стратегии данных, аналитике, governance и внедрению AI.",
-      "official_url": "https://www.gartner.com/en/conferences/apac/data-analytics-india",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
       "id": "cii-jipm-tpm-facilitators-course-pune-2026",
       "geography": "IN",
       "category": "business",
@@ -100,20 +72,6 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
-    },
-    {
-      "id": "cii-northern-region-healthcare-summit-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-22",
-      "end_date": "2026-09-22",
-      "name": "8th CII Northern Region Healthcare Summit 2026",
-      "city": "Гуруграм",
-      "description": "Отраслевой саммит CII по инновациям, цифровизации, медицинским технологиям и развитию устойчивой и доступной системы здравоохранения.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-15",
-      "updated_at": "2026-09-15"
     },
     {
       "id": "cii-cel-business-transformation-workshop-kolkata-2026",
@@ -184,20 +142,6 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
-    },
-    {
-      "id": "cii-cel-business-transformation-vapi-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-09-22",
-      "end_date": "2026-09-22",
-      "name": "CII CEL Business Transformation Programme for Entrepreneurs",
-      "city": "Вапи",
-      "description": "Деловая программа CII для предпринимателей по трансформации компаний, повышению эффективности и устойчивому росту.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076689",
-      "status": "scheduled",
-      "added_at": "2026-09-19",
-      "updated_at": "2026-09-19"
     },
     {
       "id": "19th-edition-of-banking-colloquium-2026-cii-eastern-region-2026-09-23-d76ea13f18",
@@ -3209,6 +3153,36 @@
       "updated_at": "2026-09-21"
     },
     {
+      "id": "national-bioethics-conference-pune-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-24",
+      "name": "11th National Bioethics Conference",
+      "city": "Пуна",
+      "venue": "Bharati Vidyapeeth Medical College",
+      "description": "Профессиональная конференция по клинической этике, медицинскому образованию, праву, правам человека и исследовательской практике с предконференционными мероприятиями.",
+      "official_url": "https://ijme.in/nbc/",
+      "status": "scheduled",
+      "added_at": "2026-09-23",
+      "updated_at": "2026-09-23"
+    },
+    {
+      "id": "icicdet-rayat-bahra-university-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-21",
+      "name": "International Conference on Intelligent Computing, Data Engineering and Emerging Technologies",
+      "city": "Мохали",
+      "venue": "Rayat Bahra University",
+      "description": "Гибридная международная конференция по искусственному интеллекту, машинному обучению, IoT, кибербезопасности, облачным технологиям и прикладным вычислениям для исследователей и индустрии.",
+      "official_url": "https://icicdet.rbuchd.in/index.html",
+      "status": "scheduled",
+      "added_at": "2026-09-23",
+      "updated_at": "2026-09-23"
+    },
+    {
       "id": "pu-tech-india-2027",
       "geography": "IN",
       "category": "business",
@@ -3280,6 +3254,65 @@
       "status": "scheduled",
       "added_at": "2026-09-22",
       "updated_at": "2026-09-22"
+    },
+    {
+      "id": "plastivision-india-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-25",
+      "name": "PLASTIVISION INDIA 2027",
+      "city": "Мумбаи",
+      "venue": "Bombay Exhibition Centre (NESCO)",
+      "description": "Международная B2B-выставка и конференция индустрии пластмасс: сырьё, оборудование, автоматизация, переработка, упаковка, формы и деловые встречи покупателей с поставщиками.",
+      "official_url": "https://plastivision.org/",
+      "status": "scheduled",
+      "added_at": "2026-09-23",
+      "updated_at": "2026-09-23"
+    },
+    {
+      "id": "ieee-aiei-bengaluru-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-23",
+      "name": "2027 IEEE International Conference on AI Engineering and Innovations",
+      "city": "Бенгалуру",
+      "description": "Международная конференция IEEE по инженерии искусственного интеллекта, интеллектуальным системам и инновациям с отраслевыми форумами, практическими семинарами и нетворкингом.",
+      "official_url": "https://ieeesystemscouncil.org/event/conference/2027-ieee-international-conference-ai-engineering-and-innovations",
+      "status": "scheduled",
+      "added_at": "2026-09-23",
+      "updated_at": "2026-09-23"
+    },
+    {
+      "id": "iscr-annual-conference-hyderabad-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-23",
+      "name": "20th Annual Conference of the Indian Society for Clinical Research",
+      "city": "Хайдарабад",
+      "venue": "Novotel Hyderabad Convention Centre & HICC",
+      "description": "Профессиональная конференция клинических исследователей и индустрии по операциям, регулированию, данным, фармаконадзору, доказательной практике и применению AI/ML.",
+      "official_url": "https://conference.iscr.org/call_for_proposalDashboard.aspx",
+      "status": "scheduled",
+      "added_at": "2026-09-23",
+      "updated_at": "2026-09-23"
+    },
+    {
+      "id": "npsicon-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-24",
+      "name": "NPSICON 2027",
+      "city": "Мумбаи",
+      "venue": "ACTREC",
+      "description": "Профессиональная конференция Общества нейропатологии Индии с предконференционными семинарами, научными докладами, практическими сессиями и международными экспертами.",
+      "official_url": "https://neuropathsociety.in/",
+      "status": "scheduled",
+      "added_at": "2026-09-23",
+      "updated_at": "2026-09-23"
     }
   ]
 }
