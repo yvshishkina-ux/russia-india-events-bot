@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T06:24:32Z",
+  "generated_at": "2026-10-03T03:26:54Z",
   "horizon_days": 120,
   "events": [
     {
@@ -58,21 +58,6 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
-    },
-    {
-      "id": "inside-aditi-mangaldas-vladivostok-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-10-01",
-      "end_date": "2026-10-02",
-      "name": "«Внутри» — Танцевальная компания Адити Мангалдас",
-      "city": "Владивосток",
-      "venue": "Приморская сцена Мариинского театра",
-      "description": "Индийский спектакль на IV Международном Тихоокеанском театральном фестивале, соединяющий классический танец катхак и современный сценический язык.",
-      "official_url": "https://pacificfest.ru/news/2026/obyavlena-programmy-iv-mezhdunarodnogo-tikhookeanskogo-teatralnogo-festivalya/",
-      "status": "scheduled",
-      "added_at": "2026-09-12",
-      "updated_at": "2026-09-12"
     },
     {
       "id": "india-international-ev-show-2026-2026-10-02-d19a5c10cb",
@@ -192,14 +177,14 @@
       "geography": "IN",
       "category": "business",
       "start_date": "2026-10-08",
-      "end_date": "2026-10-09",
+      "end_date": "2026-10-08",
       "name": "26th CII Global Design Summit & Exposition 2026",
       "city": "Бенгалуру",
       "description": "Международный деловой саммит и экспозиция CII по design-led innovation, промышленному дизайну и конкурентоспособности бизнеса.",
       "official_url": "https://www.cii.in/Events.aspx",
       "status": "scheduled",
       "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
+      "updated_at": "2026-10-03"
     },
     {
       "id": "2nd-intelligent-manufacturing-summit-2026-2026-10-08-4aa27e9415",
@@ -3869,6 +3854,125 @@
       "status": "scheduled",
       "added_at": "2026-10-02",
       "updated_at": "2026-10-02"
+    },
+    {
+      "id": "india-efta-prosperity-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "name": "2nd India–EFTA Prosperity Summit 2026",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Межправительственный и деловой саммит по торговле, инвестициям и новым проектам между Индией и странами EFTA в рамках соглашения TEPA.",
+      "official_url": "https://www.nicci.no/2nd-india-efta-prosperity-summit-2026/",
+      "status": "scheduled",
+      "added_at": "2026-10-03",
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "assocham-ip-excellence-awards-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-30",
+      "end_date": "2026-11-30",
+      "name": "5th ASSOCHAM IP Excellence Awards 2026",
+      "city": "Нью-Дели",
+      "description": "Деловая программа и награды ASSOCHAM для компаний и специалистов, создающих, защищающих и коммерциализирующих интеллектуальную собственность.",
+      "official_url": "https://www.assocham.org/assocham_backend/event-detail.php?event=5th-ip-excellence-awards-2026",
+      "status": "scheduled",
+      "added_at": "2026-10-03",
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "international-swat-conference-nit-warangal-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-04",
+      "end_date": "2027-01-08",
+      "name": "International SWAT Conference 2027",
+      "city": "Варангал",
+      "venue": "National Institute of Technology Warangal",
+      "description": "Международные практикумы и конференция для исследователей, консультантов, отраслевых экспертов и policymakers по управлению водными ресурсами и экологическому моделированию.",
+      "official_url": "https://cms.nitw.ac.in/conference/swat2027/",
+      "status": "scheduled",
+      "added_at": "2026-10-03",
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "icord-iisc-bengaluru-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-06",
+      "end_date": "2027-01-09",
+      "name": "11th International Conference on Research into Design",
+      "city": "Бенгалуру",
+      "venue": "Indian Institute of Science",
+      "description": "Международная конференция по исследованиям, инженерии и практике дизайна с прикладными направлениями для промышленности, транспорта и медицинских технологий.",
+      "official_url": "https://dm.iisc.ac.in/icord27/",
+      "status": "scheduled",
+      "added_at": "2026-10-03",
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "ic-decon-oist-bhopal-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-08",
+      "end_date": "2027-01-09",
+      "name": "2nd International Conference on Data, Energy and Communication Networks",
+      "city": "Бхопал",
+      "venue": "Oriental Institute of Science & Technology",
+      "description": "Гибридная международная конференция по данным, энергетике, сетям связи и smart computing для Industry 5.0 с участием исследователей и отраслевых специалистов.",
+      "official_url": "https://oriental.ac.in/oist-bhopal/decon2027",
+      "status": "scheduled",
+      "added_at": "2026-10-03",
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "iim-calcutta-lead-programme-january-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-27",
+      "end_date": "2027-01-31",
+      "name": "LEAD: Advanced Management Programme for Enterprise Leadership",
+      "city": "Калькутта",
+      "venue": "Indian Institute of Management Calcutta",
+      "description": "Первый кампусный модуль годовой программы для руководителей и владельцев растущего бизнеса по стратегии, лидерству и управлению организациями.",
+      "official_url": "https://www.iimcal.ac.in/ldp/lead-advanced-management-programme-for-enterprise-leadership",
+      "status": "scheduled",
+      "added_at": "2026-10-03",
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "kerala-science-congress-kozhikode-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-28",
+      "end_date": "2027-01-31",
+      "name": "39th Kerala Science Congress",
+      "city": "Кожикоде",
+      "venue": "St. Joseph's College, Devagiri",
+      "description": "Форум по науке, технологиям и инновациям для исследователей, бизнеса и государственных организаций с фокусом на космические решения для устойчивого развития Кералы.",
+      "official_url": "https://kscnew.kerala.gov.in/",
+      "status": "scheduled",
+      "added_at": "2026-10-03",
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "foqas-nit-warangal-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-01-29",
+      "end_date": "2027-01-31",
+      "name": "FOQAS 2027 — Frontiers in Optimization, Quantitative Approaches and Statistics",
+      "city": "Варангал",
+      "venue": "National Institute of Technology Warangal",
+      "description": "Международная гибридная конференция по оптимизации, количественным методам, статистике, data science, инженерии и управлению с участием университетов и индустрии.",
+      "official_url": "https://cms.nitw.ac.in/conference/foqas2027/",
+      "status": "scheduled",
+      "added_at": "2026-10-03",
+      "updated_at": "2026-10-03"
     }
   ]
 }
