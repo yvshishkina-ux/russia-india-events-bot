@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-07T03:03:44Z",
+  "generated_at": "2026-10-08T03:27:42Z",
   "horizon_days": 120,
   "events": [
     {
@@ -27,49 +27,6 @@
       "city": "Железноводск",
       "description": "Выездная программа по йоге, детоксу и укреплению нервной и иммунной систем.",
       "official_url": "https://www.yoga.ru/news/yoga_tours/russia/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "india-carpet-expo-2026-bhadohi",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-04",
-      "end_date": "2026-10-07",
-      "name": "50th India Carpet Expo",
-      "city": "Бхадохи",
-      "venue": "Carpet Expo Mart",
-      "description": "Юбилейная международная B2B-выставка индийских ковров и напольных покрытий для производителей, экспортёров и зарубежных закупщиков.",
-      "official_url": "https://www.indiacarpetexpo.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-09",
-      "updated_at": "2026-09-09"
-    },
-    {
-      "id": "cii-uttar-pradesh-banking-and-insurance-summit-2026-2026-10-07-eb97633420",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "name": "CII Uttar Pradesh Banking and Insurance Summit 2026",
-      "city": "Лакхнау",
-      "description": "Региональный финансовый саммит по банковскому и страховому сектору, капиталу и развитию бизнеса.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "global-summit-on-industrial-r-d-and-competitiveness-2026-10-07-d1cc572b15",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "name": "Global Summit on Industrial R&D and Competitiveness",
-      "city": "Бенгалуру",
-      "description": "Саммит CII по промышленным исследованиям, инновациям и конкурентоспособности бизнеса.",
-      "official_url": "https://www.cii.in/Events.aspx",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -265,10 +222,10 @@
       "name": "MobilityNext 2047 - Driving Innovation, Partnerships and Policy for Electric Mobility",
       "city": "Хайдарабад",
       "description": "Конференция и выставка по электромобильности: политика, инвестиции, технологии и отраслевые партнёрства.",
-      "official_url": "https://www.assocham.org/event-detail.php?event=mobilitynext-2047-driving-innovation-partnerships-and-policy-for-electric-mobility",
+      "official_url": "https://www.assocham.org/",
       "status": "scheduled",
       "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
+      "updated_at": "2026-10-08"
     },
     {
       "id": "o-leads-2026-2026-10-09-85fcc0387f",
@@ -279,10 +236,10 @@
       "name": "O-LEADS 2026",
       "city": "Бхубанешвар",
       "description": "Саммит ASSOCHAM для стартапов и промышленности с инвесторами, B2B/G2B-встречами и Industry-Academia Connect.",
-      "official_url": "https://www.assocham.org/event-detail.php?event=o-leads-2026",
+      "official_url": "https://www.assocham.org/",
       "status": "scheduled",
       "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
+      "updated_at": "2026-10-08"
     },
     {
       "id": "ttf-hyderabad-2026-2026-10-09-34eb505526",
@@ -462,10 +419,10 @@
       "name": "Zak World of Façades India — Mumbai",
       "city": "Мумбаи",
       "description": "Профессиональная конференция по façade design, инженерии оболочек зданий, материалам и строительным технологиям.",
-      "official_url": "https://zakworldoffacades.com/event/233-zwof-mum26/",
+      "official_url": "https://zakworldoffacades.com/",
       "status": "scheduled",
       "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
+      "updated_at": "2026-10-08"
     },
     {
       "id": "india-chem-2026-14th-edition-2026-10-22-7ac09610af",
@@ -1012,10 +969,10 @@
       "name": "5th ASSOCHAM Manufacturing Conclave & Business Excellence Awards",
       "city": "Калькутта",
       "description": "Отраслевой конклав по умному производству, AI, автоматизации, устойчивости, цепочкам поставок и глобальной конкурентоспособности МСП, совмещённый с премией делового совершенства.",
-      "official_url": "https://www.assocham.org/event-detail.php?event=5th-edition-manufacturing-conclave-2026-business-excellence-awards",
+      "official_url": "https://www.assocham.org/",
       "status": "scheduled",
       "added_at": "2026-09-20",
-      "updated_at": "2026-09-20"
+      "updated_at": "2026-10-08"
     },
     {
       "id": "cphi-india-2026-2026-11-23-0a15af6a75",
@@ -2908,36 +2865,6 @@
       "updated_at": "2026-09-28"
     },
     {
-      "id": "jk-breast-allied-cancers-conference-srinagar-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-05",
-      "end_date": "2026-10-07",
-      "name": "3rd J&K International Conference on Breast and Allied Cancers",
-      "city": "Сринагар",
-      "venue": "University of Kashmir",
-      "description": "Международная профессиональная конференция по онкологии молочной железы и смежным заболеваниям для клиницистов, исследователей и медицинской индустрии.",
-      "official_url": "https://dbtctep.gov.in/",
-      "status": "scheduled",
-      "added_at": "2026-09-28",
-      "updated_at": "2026-09-28"
-    },
-    {
-      "id": "vesicon-aiims-delhi-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-05",
-      "end_date": "2026-10-07",
-      "name": "VESICON 2026",
-      "city": "Нью-Дели",
-      "venue": "All India Institute of Medical Sciences",
-      "description": "Ежегодная профессиональная конференция по внеклеточным везикулам, фундаментальным исследованиям и клиническим инновациям.",
-      "official_url": "https://dbtctep.gov.in/",
-      "status": "scheduled",
-      "added_at": "2026-09-28",
-      "updated_at": "2026-09-28"
-    },
-    {
       "id": "stox-toxicology-ai-health-faridabad-2026",
       "geography": "IN",
       "category": "business",
@@ -3146,20 +3073,6 @@
       "status": "scheduled",
       "added_at": "2026-09-29",
       "updated_at": "2026-09-29"
-    },
-    {
-      "id": "cii-goa-hr-competition-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "name": "CII Goa HR Competition 2026",
-      "city": "Панаджи",
-      "description": "Региональный профессиональный конкурс CII по практикам управления персоналом, развитию талантов и эффективности HR-функции.",
-      "official_url": "https://www.cii.in/Events.aspx?enc=5Qj31akIlo6Y7nuU38ndAv0e2tzdGabIAHEu8jY8LFNac8gVOUzNaiSVgCM8Nhag",
-      "status": "scheduled",
-      "added_at": "2026-09-30",
-      "updated_at": "2026-09-30"
     },
     {
       "id": "cii-iit-kharagpur-design-thinking-ai-leadership-2026",
@@ -3527,62 +3440,6 @@
       "updated_at": "2026-09-30"
     },
     {
-      "id": "cii-water-innovation-summit-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-06",
-      "end_date": "2026-10-07",
-      "name": "12th CII Water Innovation Summit",
-      "city": "Нью-Дели",
-      "description": "Отраслевой саммит по водным технологиям, управлению ресурсами, промышленным решениям и партнёрствам для устойчивого водопользования.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000074284",
-      "status": "scheduled",
-      "added_at": "2026-10-01",
-      "updated_at": "2026-10-01"
-    },
-    {
-      "id": "cii-digital-green-manufacturing-summit-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "name": "2nd CII Digital Green Manufacturing Summit 2026",
-      "city": "Ченнаи",
-      "description": "Саммит по цифровому и экологичному производству, энергоэффективности, автоматизации и устойчивой промышленной трансформации.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-10-01",
-      "updated_at": "2026-10-01"
-    },
-    {
-      "id": "cii-sikkim-buyer-seller-meet-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "name": "CII Sikkim Buyer–Seller Meet 2026",
-      "city": "Нью-Дели",
-      "description": "Встреча закупщиков и поставщиков Сиккима с B2B-переговорами, продвижением региональной продукции и инвестиционных возможностей.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-10-01",
-      "updated_at": "2026-10-01"
-    },
-    {
-      "id": "cii-ipo-journey-seminar-mumbai-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "name": "Seminar on IPO Journey — Readiness to Listing",
-      "city": "Мумбаи",
-      "description": "Семинар CII для компаний о подготовке к IPO, требованиях листинга, корпоративном управлении и взаимодействии с рынком капитала.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-10-01",
-      "updated_at": "2026-10-01"
-    },
-    {
       "id": "cii-occupational-health-safety-conference-2026",
       "geography": "IN",
       "category": "business",
@@ -3742,21 +3599,6 @@
       "status": "scheduled",
       "added_at": "2026-10-02",
       "updated_at": "2026-10-02"
-    },
-    {
-      "id": "india-efta-prosperity-summit-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "name": "2nd India–EFTA Prosperity Summit 2026",
-      "city": "Нью-Дели",
-      "venue": "Bharat Mandapam",
-      "description": "Межправительственный и деловой саммит по торговле, инвестициям и новым проектам между Индией и странами EFTA в рамках соглашения TEPA.",
-      "official_url": "https://www.nicci.no/2nd-india-efta-prosperity-summit-2026/",
-      "status": "scheduled",
-      "added_at": "2026-10-03",
-      "updated_at": "2026-10-03"
     },
     {
       "id": "assocham-ip-excellence-awards-2026",
@@ -4568,20 +4410,6 @@
       "updated_at": "2026-10-06"
     },
     {
-      "id": "cii-ireland-india-higher-education-forum-mumbai-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "name": "Ireland–India Higher Education Forum",
-      "city": "Мумбаи",
-      "description": "Профессиональный форум CII по сотрудничеству Индии и Ирландии в высшем образовании, академическим партнёрствам и международной мобильности.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-10-07",
-      "updated_at": "2026-10-07"
-    },
-    {
       "id": "indian-film-festival-yekaterinburg-2026",
       "geography": "RU",
       "category": "culture",
@@ -4714,6 +4542,149 @@
       "status": "scheduled",
       "added_at": "2026-10-07",
       "updated_at": "2026-10-07"
+    },
+    {
+      "id": "cii-salem-members-meet-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "name": "CII Southern Region Members’ Meet in Salem",
+      "city": "Салем",
+      "description": "Встреча членов CII Южного региона с заместителем председателя регионального совета для обсуждения отраслевых приоритетов и делового взаимодействия.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "cii-stronger-micro-small-enterprises-mumbai-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "name": "Building India Through Stronger Micro and Small Enterprises",
+      "city": "Мумбаи",
+      "description": "Деловая программа CII по укреплению микро- и малых предприятий, их конкурентоспособности, росту и интеграции в цепочки поставок.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "cii-leadership-conclave-indore-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "name": "CII Leadership Conclave 2026 — Indore",
+      "city": "Индаур",
+      "description": "Региональный конклав CII для руководителей компаний, посвящённый лидерству, стратегии и развитию бизнеса.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "cii-india-investment-series-rajasthan-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "name": "India Investment Series — Rajasthan",
+      "city": "Джайпур",
+      "description": "Сессия CII об инвестиционных льготах штата, инфраструктуре и возможностях размещения новых проектов в Раджастхане.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "cii-local-roots-global-reach-madurai-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "name": "Local Roots to Global Reach — Scaling Brands Beyond Boundaries",
+      "city": "Мадурай",
+      "description": "Деловая сессия CII о масштабировании локальных брендов и выходе компаний на новые рынки.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "cii-vendor-development-psu-uttarakhand-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "name": "Vendor Development and Registration Programme with PSUs",
+      "city": "Харидвар",
+      "description": "Программа CII для поставщиков по регистрации и работе с государственными предприятиями, закупочным требованиям и деловым контактам.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "cii-trichy-hospital-insurance-claims-session-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "name": "CII Trichy Session on Hospital Insurance and Claims Management",
+      "city": "Тируччираппалли",
+      "description": "Профессиональная сессия CII по лучшим практикам больничного страхования и управлению страховыми требованиями.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "mayurbhanj-chhau-kazan-2026",
+      "geography": "RU",
+      "category": "culture",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "name": "Танцевальная программа «Майурбхандж Чхау»",
+      "city": "Казань",
+      "venue": "Культурный центр «Московский»",
+      "description": "Показ традиционного индийского танца из штата Одиша, объединяющего боевые искусства, акробатику и народный эпос, при поддержке Генерального консульства Индии в Казани.",
+      "official_url": "https://time-forum.ru/program2026",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "xlri-spiritual-intelligence-leadership-conference-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-02-04",
+      "end_date": "2027-02-07",
+      "name": "International Conference on Spiritual Intelligence in Leadership",
+      "city": "Джамшедпур",
+      "venue": "XLRI – Xavier School of Management",
+      "description": "Международная конференция XLRI для исследователей, руководителей и практиков о роли духовного интеллекта, этики и сострадания в управленческих решениях.",
+      "official_url": "https://sc-2026.xlri.ac.in/",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
+    },
+    {
+      "id": "indus-tech-bhiwadi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-02-05",
+      "end_date": "2027-02-07",
+      "name": "INDUS-tech Bhiwadi Industrial Exhibition 2027",
+      "city": "Бхивади",
+      "venue": "Aravali Vihar Ground",
+      "description": "B2B-выставка станков, промышленной автоматизации, робототехники, инженерных компонентов и решений для умного производства.",
+      "official_url": "https://industechexpo.com/bhiwadi-industrial-exhibition-2027/",
+      "status": "scheduled",
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08"
     }
   ]
 }
