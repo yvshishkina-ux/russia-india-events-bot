@@ -623,10 +623,6 @@
       "ended_on": "2026-10-01"
     },
     {
-      "id": "cii-encon-award-kolkata-2026",
-      "ended_on": "2026-10-01"
-    },
-    {
       "id": "cii-delhi-real-estate-summit-2026",
       "ended_on": "2026-10-01"
     },
@@ -1125,6 +1121,26 @@
     {
       "id": "cii-principal-connect-madurai-2026",
       "ended_on": "2026-10-24"
+    },
+    {
+      "id": "bharat-international-rice-conference-birc-2026-2026-10-23-e40ff4a7d8",
+      "ended_on": "2026-10-25"
+    },
+    {
+      "id": "event-2026-10-23-a46242f54a",
+      "ended_on": "2026-10-25"
+    },
+    {
+      "id": "gclad-2026-1st-edition-2026-10-23-242caad6d8",
+      "ended_on": "2026-10-25"
+    },
+    {
+      "id": "gfloor-2026-2nd-edition-2026-10-23-130d34e0c3",
+      "ended_on": "2026-10-25"
+    },
+    {
+      "id": "cii-yi-chennai-walkalong-2026",
+      "ended_on": "2026-10-25"
     }
   ]
 }
