@@ -1,22 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T12:10:00Z",
+  "generated_at": "2026-10-27T11:45:00Z",
   "horizon_days": 120,
   "events": [
-    {
-      "id": "hindustan-international-furniture-fair-2026-2026-10-24-53e14f1af0",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-24",
-      "end_date": "2026-10-26",
-      "name": "Hindustan International Furniture Fair 2026",
-      "city": "Бенгалуру",
-      "description": "Международная B2B-выставка мебели, интерьерных решений, материалов и производственных технологий.",
-      "official_url": "https://www.biec.in/events",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
     {
       "id": "one-purpos-india-forum-2026-opif-2026-10-26-27ab330e68",
       "geography": "IN",
@@ -27,34 +13,6 @@
       "city": "Нью-Дели",
       "description": "Форум по CSR, ESG, устойчивому развитию, philanthropy, impact investing и государственно-частным партнёрствам.",
       "official_url": "https://www.csrbox.org/opif/index.php",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "assocham-agritech-summit-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "name": "4th ASSOCHAM AgriTech Summit 2026",
-      "city": "Нью-Дели",
-      "description": "Деловой саммит по цифровому и климатически устойчивому сельскому хозяйству, точному земледелию, агротехнологиям, роботизации, инвестициям и развитию agri-tech стартапов.",
-      "official_url": "https://www.assocham.org/assocham_backend/event-detail.php?event=4th-agritech-smart-farming-sustainable-future",
-      "status": "scheduled",
-      "added_at": "2026-09-21",
-      "updated_at": "2026-09-21"
-    },
-    {
-      "id": "samvad-2026-global-multilingual-ecosystem-summit-2026-10-26-0d93ccae15",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "name": "Samvad 2026 - Global Multilingual Ecosystem Summit",
-      "city": "Мумбаи",
-      "description": "Отраслевой бизнес-саммит по локализации, языковым сервисам, media, BFSI, AI и глобальному контенту.",
-      "official_url": "https://citlob.in/samvad.html",
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-09-05"
@@ -276,15 +234,16 @@
       "id": "india-mining-week-2026-2026-11-15-026077cc14",
       "geography": "IN",
       "category": "business",
-      "start_date": "2026-11-15",
-      "end_date": "2026-11-17",
-      "name": "India Mining Week 2026",
+      "start_date": "2027-02-24",
+      "end_date": "2027-02-26",
+      "name": "India Mining Week 2027",
       "city": "Нью-Дели",
-      "description": "Крупный отраслевой форум и выставка по mining, critical minerals, инвестициям, технологиям, ESG и цепочкам поставок.",
+      "venue": "Yashobhoomi Convention Centre, Dwarka",
+      "description": "Флагманская международная конференция и выставка по добыче, критическим минералам, технологиям, инвестициям, устойчивости и цепочкам поставок.",
       "official_url": "https://indiaminingweek.org/",
       "status": "scheduled",
       "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
+      "updated_at": "2026-10-27"
     },
     {
       "id": "gartner-it-symposium-xpo-2026-2026-11-16-5c4fd13eac",
@@ -3119,20 +3078,6 @@
       "updated_at": "2026-10-04"
     },
     {
-      "id": "cii-global-education-conclave-mumbai-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "name": "7th CII Global Education Conclave",
-      "city": "Мумбаи",
-      "description": "Отраслевой конклав CII по образованию, развитию навыков, технологиям обучения и партнёрствам образовательных организаций с бизнесом.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-10-05",
-      "updated_at": "2026-10-05"
-    },
-    {
       "id": "cii-delhi-education-summit-2026",
       "geography": "IN",
       "category": "business",
@@ -5392,6 +5337,79 @@
       "status": "scheduled",
       "added_at": "2026-10-26",
       "updated_at": "2026-10-26"
+    },
+    {
+      "id": "b2b-world-summit-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-02-24",
+      "end_date": "2027-02-24",
+      "name": "5th B2B World Summit & Awards",
+      "city": "Нью-Дели",
+      "description": "Профессиональная конференция для B2B-маркетологов, руководителей и технологических компаний по стратегии роста, продажам, аналитике и работе с корпоративными клиентами.",
+      "official_url": "https://b2bworldsummit.com/",
+      "status": "scheduled",
+      "added_at": "2026-10-27",
+      "updated_at": "2026-10-27"
+    },
+    {
+      "id": "international-arogya-expo-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-02-24",
+      "end_date": "2027-02-26",
+      "name": "4th International Arogya Expo 2027",
+      "city": "Нью-Дели",
+      "venue": "Yashobhoomi",
+      "description": "Международная выставка, конференция и Reverse Buyer-Seller Meet для организаций, регуляторов, производителей и специалистов экосистемы AYUSH и традиционной медицины.",
+      "official_url": "https://www.indembastana.gov.in/section/news/4th-edition-of-international-arogya-expo-2027/",
+      "status": "scheduled",
+      "added_at": "2026-10-27",
+      "updated_at": "2026-10-27"
+    },
+    {
+      "id": "iafi-ai-connected-intelligence-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-02-24",
+      "end_date": "2027-02-24",
+      "name": "AI for Connected Intelligence: Transforming Telecom and ICT",
+      "city": "Нью-Дели",
+      "description": "Профессиональное мероприятие ITU-APT Foundation of India по применению искусственного интеллекта в телекоммуникациях, сетях связи и цифровой инфраструктуре.",
+      "official_url": "https://iafi.in/upcoming-events26",
+      "status": "scheduled",
+      "added_at": "2026-10-27",
+      "updated_at": "2026-10-27"
+    },
+    {
+      "id": "airline-economics-india-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-02-24",
+      "end_date": "2027-02-25",
+      "name": "Airline Economics Growth Frontiers India 2027",
+      "city": "Нью-Дели",
+      "venue": "The Taj Mahal Hotel",
+      "description": "Международная деловая конференция для авиакомпаний, лизингодателей, MRO-компаний, финансовых организаций и управляющих авиационными активами.",
+      "official_url": "https://www.growthfrontiersevents.com/conference/schedule/india/",
+      "status": "scheduled",
+      "added_at": "2026-10-27",
+      "updated_at": "2026-10-27"
+    },
+    {
+      "id": "diwali-shine-moscow-2026",
+      "geography": "RU",
+      "category": "culture",
+      "start_date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "name": "Фестиваль Дивали «Сияй!»",
+      "city": "Москва",
+      "venue": "Особняк «Йога Журнала», ул. Мантулинская, 5, стр. 6",
+      "description": "Фестиваль индийского праздника огней с лекциями об аюрведе и йоге, практиками, мантра-концертом, танцевальными и театральными выступлениями.",
+      "official_url": "https://www.mantrica.ru/festival_diwali",
+      "status": "scheduled",
+      "added_at": "2026-10-27",
+      "updated_at": "2026-10-27"
     }
   ]
 }
