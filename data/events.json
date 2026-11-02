@@ -1,36 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-11-01T15:21:16Z",
+  "generated_at": "2026-11-02T03:05:17Z",
   "horizon_days": 120,
   "events": [
-    {
-      "id": "bharat-global-cultural-expo-2026-2026-10-28-5f30451bd2",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-01",
-      "name": "Bharat Global Cultural Expo 2026",
-      "city": "Бенгалуру",
-      "description": "Международная выставка и деловая платформа по торговле, туризму, инвестициям и культурной экономике.",
-      "official_url": "https://www.bgce.in/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "loupe-india-2026-2026-10-29-629a4a3b3b",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-29",
-      "end_date": "2026-11-01",
-      "name": "LOUPE India 2026",
-      "city": "Грейтер-Нойда",
-      "description": "Крупная B2B-выставка этикетки, упаковочной печати и converting-технологий, ранее Labelexpo India.",
-      "official_url": "https://www.loupe-india.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
     {
       "id": "29th-cii-chandigarh-fair-2026-10-30-9ce0adabab",
       "geography": "IN",
@@ -2339,20 +2311,6 @@
       "status": "scheduled",
       "added_at": "2026-09-29",
       "updated_at": "2026-09-29"
-    },
-    {
-      "id": "cii-green-supply-chain-certification-hyderabad-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-24",
-      "end_date": "2026-11-01",
-      "name": "CII Certified Professional in Green Supply Chain",
-      "city": "Хайдарабад",
-      "description": "Сертификационная программа CII по устойчивым цепочкам поставок, ресурсной эффективности и декарбонизации закупок и логистики; занятия проходят 24, 25, 31 октября и 1 ноября.",
-      "official_url": "https://www.cii.in/Events.aspx?enc=5Qj31akIlo6Y7nuU38ndAv0e2tzdGabIAHEu8jY8LFNac8gVOUzNaiSVgCM8Nhag",
-      "status": "scheduled",
-      "added_at": "2026-09-30",
-      "updated_at": "2026-09-30"
     },
     {
       "id": "iitkgp-indian-control-conference-2027",
@@ -4717,21 +4675,6 @@
       "updated_at": "2026-10-25"
     },
     {
-      "id": "yoga-teaching-methodology-novosibirsk-october-2026",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-10-30",
-      "end_date": "2026-11-01",
-      "name": "Курс «Методика преподавания йоги» в Новосибирске",
-      "city": "Новосибирск",
-      "venue": "Йога-центр «Айва»",
-      "description": "Очный региональный курс Учебного центра «Йога-Практика» по методике преподавания йоги под руководством Ольги Макуриной.",
-      "official_url": "https://www.yoga.ru/news/news/training/7993467.html",
-      "status": "scheduled",
-      "added_at": "2026-10-26",
-      "updated_at": "2026-10-26"
-    },
-    {
       "id": "cii-bihar-green-conclave-patna-2026",
       "geography": "IN",
       "category": "business",
@@ -5394,6 +5337,21 @@
       "status": "scheduled",
       "added_at": "2026-11-01",
       "updated_at": "2026-11-01"
+    },
+    {
+      "id": "jnu-climate-financial-risks-banking-conference-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-01",
+      "end_date": "2027-03-03",
+      "name": "International Conference on Climate-Related Financial Risks in Banking",
+      "city": "Нью-Дели",
+      "venue": "Jawaharlal Nehru University",
+      "description": "Международная конференция JNU по интеграции климатических финансовых рисков в банковское регулирование, институциональные рамки и управление рисками.",
+      "official_url": "https://jnu.ac.in/node/159898357",
+      "status": "scheduled",
+      "added_at": "2026-11-02",
+      "updated_at": "2026-11-02"
     }
   ]
 }
