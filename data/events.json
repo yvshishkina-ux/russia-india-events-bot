@@ -1,22 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-11-02T03:05:17Z",
+  "generated_at": "2026-11-03T03:03:54Z",
   "horizon_days": 120,
   "events": [
-    {
-      "id": "29th-cii-chandigarh-fair-2026-10-30-9ce0adabab",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-30",
-      "end_date": "2026-11-02",
-      "name": "29th CII Chandigarh Fair",
-      "city": "Чандигарх",
-      "description": "Мультисекторальная торговая выставка CII для брендов, производителей, МСП и регионального бизнеса.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
     {
       "id": "bharat-renewable-energy-summit-expo-2026",
       "geography": "IN",
@@ -106,15 +92,15 @@
       "id": "india-international-trade-fair-iitf-2026-2026-11-14-c95b48e8e7",
       "geography": "IN",
       "category": "business",
-      "start_date": "2026-11-14",
+      "start_date": "2026-11-13",
       "end_date": "2026-11-27",
       "name": "India International Trade Fair (IITF) 2026",
       "city": "Нью-Дели",
       "description": "Крупная мультисекторальная торговая выставка ITPO с B2B/B2C-сегментами, экспортёрами, МСП и международными участниками.",
-      "official_url": "https://www.indiatradefair.com/",
+      "official_url": "https://www.itpo.gov.in/itpo-event-detail/45th-india-international-trade-fairiitf-2026",
       "status": "scheduled",
       "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
+      "updated_at": "2026-11-03"
     },
     {
       "id": "india-mining-week-2026-2026-11-15-026077cc14",
@@ -5096,20 +5082,6 @@
       "updated_at": "2026-10-28"
     },
     {
-      "id": "cii-rajasthan-members-induction-jaipur-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-02",
-      "end_date": "2026-11-02",
-      "name": "CII Rajasthan Members Induction Session",
-      "city": "Джайпур",
-      "description": "Вводная деловая сессия CII для компаний-членов Раджастхана по работе отраслевой сети, сервисам и возможностям сотрудничества.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-11-01",
-      "updated_at": "2026-11-01"
-    },
-    {
       "id": "cii-national-kaizen-competition-bengaluru-2026",
       "geography": "IN",
       "category": "business",
@@ -5352,6 +5324,79 @@
       "status": "scheduled",
       "added_at": "2026-11-02",
       "updated_at": "2026-11-02"
+    },
+    {
+      "id": "cii-ai-business-impact-ernakulam-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-14",
+      "name": "CII Kerala Session: chAI pe Charcha — From AI Curiosity to Business Impact",
+      "city": "Эрнакулам",
+      "description": "Интерактивная деловая сессия CII о переходе от экспериментов с искусственным интеллектом к практическому внедрению и измеримому эффекту для бизнеса.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-11-03",
+      "updated_at": "2026-11-03"
+    },
+    {
+      "id": "cii-iso-internal-auditor-masterclass-november-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-18",
+      "name": "CII-Certified Internal Auditor Masterclass on ISO 14001 and ISO 45001",
+      "city": "Нью-Дели",
+      "description": "Онлайн-мастер-класс CII для внутренних аудиторов по экологическому менеджменту ISO 14001 и охране труда ISO 45001 с учётом актуальных поправок.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-11-03",
+      "updated_at": "2026-11-03"
+    },
+    {
+      "id": "ieee-esci-pune-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-03",
+      "end_date": "2027-03-05",
+      "name": "9th IEEE International Conference on Emerging Smart Computing and Informatics — ESCI 2027",
+      "city": "Пуна",
+      "venue": "AISSMS Institute of Information Technology",
+      "description": "Международная профессиональная конференция по интеллектуальным вычислениям, обработке изображений и сигналов, IoT, автоматизации и промышленным цифровым решениям.",
+      "official_url": "https://aissmsioitesci.edu.in/call-for-paper/",
+      "status": "scheduled",
+      "added_at": "2026-11-03",
+      "updated_at": "2026-11-03"
+    },
+    {
+      "id": "express-pharma-world-expo-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-03",
+      "end_date": "2027-03-05",
+      "name": "Express Pharma World Expo 2027",
+      "city": "Мумбаи",
+      "venue": "Bombay Exhibition Centre, Goregaon",
+      "description": "Профессиональная выставка и конференция фармацевтической отрасли по производству, качеству, регулированию, цепочкам поставок, цифровизации и партнёрствам.",
+      "official_url": "https://www.expresspharmaworld.com/",
+      "status": "scheduled",
+      "added_at": "2026-11-03",
+      "updated_at": "2026-11-03"
+    },
+    {
+      "id": "iaapi-amusement-expo-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-03",
+      "end_date": "2027-03-05",
+      "name": "25th IAAPI Amusement Expo 2027",
+      "city": "Мумбаи",
+      "venue": "Bombay Exhibition Centre",
+      "description": "Международная B2B-выставка индустрии парков развлечений, аттракционов и досуга с оборудованием, технологиями, операторами, инвесторами и деловой программой.",
+      "official_url": "https://iaapi.org/about-expo-2027",
+      "status": "scheduled",
+      "added_at": "2026-11-03",
+      "updated_at": "2026-11-03"
     }
   ]
 }
