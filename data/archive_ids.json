@@ -1031,10 +1031,6 @@
       "ended_on": "2026-10-17"
     },
     {
-      "id": "cii-up-food-processing-fmcg-roadshow-delhi-2026",
-      "ended_on": "2026-10-16"
-    },
-    {
       "id": "cii-mp-family-managed-business-bhopal-2026",
       "ended_on": "2026-10-16"
     },
@@ -1305,6 +1301,18 @@
     {
       "id": "cii-rajasthan-members-induction-jaipur-2026",
       "ended_on": "2026-11-02"
+    },
+    {
+      "id": "cii-banking-financial-services-summit-kochi-2026",
+      "ended_on": "2026-11-03"
+    },
+    {
+      "id": "cii-ngo-capacity-building-gurugram-2026",
+      "ended_on": "2026-11-03"
+    },
+    {
+      "id": "cii-mp-buyer-seller-meet-bhopal-2026",
+      "ended_on": "2026-11-03"
     }
   ]
 }

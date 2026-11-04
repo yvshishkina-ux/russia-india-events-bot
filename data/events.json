@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T03:03:54Z",
+  "generated_at": "2026-11-04T03:01:13Z",
   "horizon_days": 120,
   "events": [
     {
@@ -2747,20 +2747,6 @@
       "updated_at": "2026-10-04"
     },
     {
-      "id": "cii-banking-financial-services-summit-kochi-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-03",
-      "end_date": "2026-11-03",
-      "name": "CII Banking & Financial Services Summit 2026 — Kerala",
-      "city": "Кочи",
-      "description": "Деловой саммит CII по банковским и финансовым услугам, цифровизации, регулированию и доступу бизнеса к капиталу.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-10-04",
-      "updated_at": "2026-10-04"
-    },
-    {
       "id": "suscon-iim-shillong-2026",
       "geography": "IN",
       "category": "business",
@@ -3837,20 +3823,6 @@
       "official_url": "https://www.cii.in/Events.aspx?enc=5Qj31akIlo6Y7nuU38ndAv0e2tzdGabIAHEu8jY8LFNac8gVOUzNaiSVgCM8Nhag",
       "status": "scheduled",
       "added_at": "2026-09-15",
-      "updated_at": "2026-10-15"
-    },
-    {
-      "id": "cii-ngo-capacity-building-gurugram-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-30",
-      "end_date": "2026-11-03",
-      "name": "CII NGO Capacity Building Program",
-      "city": "Гуруграм",
-      "description": "Программа повышения организационной устойчивости НКО: управление, отчётность, финансирование, оценка воздействия и партнёрство с бизнесом.",
-      "official_url": "https://www.cii.in/Events.aspx?enc=5Qj31akIlo6Y7nuU38ndAv0e2tzdGabIAHEu8jY8LFNac8gVOUzNaiSVgCM8Nhag",
-      "status": "scheduled",
-      "added_at": "2026-10-15",
       "updated_at": "2026-10-15"
     },
     {
@@ -5096,20 +5068,6 @@
       "updated_at": "2026-11-01"
     },
     {
-      "id": "cii-mp-buyer-seller-meet-bhopal-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-03",
-      "end_date": "2026-11-03",
-      "name": "CII MP Buyer Seller Meet 2026",
-      "city": "Бхопал",
-      "description": "Региональная B2B-встреча CII для поставщиков, закупщиков и компаний Мадхья-Прадеш по развитию цепочек поставок и деловых связей.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-11-01",
-      "updated_at": "2026-11-01"
-    },
-    {
       "id": "cii-sme-enterprize-workshop-ahmedabad-2026",
       "geography": "IN",
       "category": "business",
@@ -5397,6 +5355,94 @@
       "status": "scheduled",
       "added_at": "2026-11-03",
       "updated_at": "2026-11-03"
+    },
+    {
+      "id": "cii-national-animal-wellbeing-summit-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "name": "CII National Animal Wellbeing Summit",
+      "city": "Нью-Дели",
+      "description": "Национальный отраслевой саммит CII по благополучию животных, ответственным практикам бизнеса, регулированию и сотрудничеству участников экосистемы.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-11-04",
+      "updated_at": "2026-11-04"
+    },
+    {
+      "id": "cii-up-food-processing-fmcg-roadshow-delhi-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "name": "CII Uttar Pradesh Roadshow on Food Processing & FMCG Sector",
+      "city": "Нью-Дели",
+      "description": "Деловая презентация инвестиционных возможностей штата Уттар-Прадеш в пищевой переработке и FMCG для компаний, инвесторов и отраслевых партнёров.",
+      "official_url": "https://www.cii.in/Events.aspx",
+      "status": "scheduled",
+      "added_at": "2026-10-09",
+      "updated_at": "2026-11-04"
+    },
+    {
+      "id": "kids-india-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-04",
+      "end_date": "2027-03-06",
+      "name": "Kids India 2027",
+      "city": "Мумбаи",
+      "venue": "Jio World Convention Centre",
+      "description": "Международная B2B-выставка игрушек и детских товаров, объединяющая производителей, бренды, закупщиков, дистрибьюторов и отраслевых партнёров.",
+      "official_url": "https://kidsindia.co.in/",
+      "status": "scheduled",
+      "added_at": "2026-11-04",
+      "updated_at": "2026-11-04"
+    },
+    {
+      "id": "smart-lighting-expo-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-04",
+      "end_date": "2027-03-06",
+      "name": "Smart Lighting Expo India 2027",
+      "city": "Мумбаи",
+      "venue": "Bombay Exhibition Centre",
+      "description": "Профессиональная выставка декоративного, архитектурного и интеллектуального освещения, автоматизации, компонентов и энергоэффективных решений.",
+      "official_url": "https://smartlightingexpo.in/",
+      "status": "scheduled",
+      "added_at": "2026-11-04",
+      "updated_at": "2026-11-04"
+    },
+    {
+      "id": "fan-expo-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-04",
+      "end_date": "2027-03-06",
+      "name": "FAN Expo India 2027",
+      "city": "Мумбаи",
+      "venue": "Bombay Exhibition Centre",
+      "description": "Отраслевая B2B-выставка вентиляторов, электродвигателей, электронных компонентов, систем управления и технологий производства для поставщиков и закупщиков.",
+      "official_url": "https://www.fantechexpo.com/why-visit.aspx",
+      "status": "scheduled",
+      "added_at": "2026-11-04",
+      "updated_at": "2026-11-04"
+    },
+    {
+      "id": "idac-expo-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-04",
+      "end_date": "2027-03-06",
+      "name": "iDAC Expo Mumbai 2027",
+      "city": "Мумбаи",
+      "venue": "Jio World Convention Centre",
+      "description": "Профессиональная выставка и конференция по архитектуре, дизайну и строительству с технологиями, материалами, брендами и отраслевыми руководителями.",
+      "official_url": "https://idacexpo.in/",
+      "status": "scheduled",
+      "added_at": "2026-11-04",
+      "updated_at": "2026-11-04"
     }
   ]
 }
