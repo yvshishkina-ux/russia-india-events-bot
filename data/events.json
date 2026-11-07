@@ -1,22 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-11-06T02:59:09Z",
+  "generated_at": "2026-11-07T03:00:21Z",
   "horizon_days": 120,
   "events": [
-    {
-      "id": "unchained-summit-india-2026-2026-11-05-05917b58b6",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-05",
-      "end_date": "2026-11-06",
-      "name": "Unchained Summit India 2026",
-      "city": "Мумбаи",
-      "description": "B2B-саммит по Web3 и цифровым активам для институциональных игроков, инвесторов, основателей и технологических компаний.",
-      "official_url": "https://unchainedsummit.com/india/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
     {
       "id": "khimia-2026-india-pavilion-2026-11-09-419204aae1",
       "geography": "RU",
@@ -2703,21 +2689,6 @@
       "updated_at": "2026-10-03"
     },
     {
-      "id": "saras-aajeevika-mela-gurugram-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-10-22",
-      "end_date": "2026-11-06",
-      "name": "SARAS Aajeevika Mela 2026 — Gurugram",
-      "city": "Гуруграм",
-      "venue": "Leisure Valley Park",
-      "description": "Национальная ярмарка сельского предпринимательства и продукции женских групп самопомощи с прямым доступом к покупателям и рыночным партнёрам.",
-      "official_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255219&lang=2&reg=48",
-      "status": "scheduled",
-      "added_at": "2026-10-04",
-      "updated_at": "2026-10-04"
-    },
-    {
       "id": "suscon-iim-shillong-2026",
       "geography": "IN",
       "category": "business",
@@ -3292,21 +3263,6 @@
       "updated_at": "2026-10-08"
     },
     {
-      "id": "ethnomir-india-week-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-11-02",
-      "end_date": "2026-11-06",
-      "name": "Неделя Индии в ЭТНОМИРе",
-      "city": "Петрово, Калужская область",
-      "venue": "Этнографический парк-музей «ЭТНОМИР»",
-      "description": "Тематическая неделя, посвящённая культуре и традициям Индии, в региональном этнографическом парке-музее.",
-      "official_url": "https://www.ethnomir.ru/events-calendar/2026/noyabr/",
-      "status": "scheduled",
-      "added_at": "2026-10-09",
-      "updated_at": "2026-10-09"
-    },
-    {
       "id": "ethnomir-diwali-2026",
       "geography": "RU",
       "category": "culture",
@@ -3794,20 +3750,6 @@
       "official_url": "https://www.cii.in/Events.aspx?enc=5Qj31akIlo6Y7nuU38ndAv0e2tzdGabIAHEu8jY8LFNac8gVOUzNaiSVgCM8Nhag",
       "status": "scheduled",
       "added_at": "2026-09-15",
-      "updated_at": "2026-10-15"
-    },
-    {
-      "id": "cii-cel-micro-small-entrepreneurs-patna-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-05",
-      "end_date": "2026-11-06",
-      "name": "CII CEL Micro & Small Entrepreneurs Development Programme",
-      "city": "Патна",
-      "description": "Программа развития владельцев микро- и малых предприятий по управлению, финансам, рынкам, цифровизации и росту бизнеса.",
-      "official_url": "https://www.cii.in/Events.aspx?enc=5Qj31akIlo6Y7nuU38ndAv0e2tzdGabIAHEu8jY8LFNac8gVOUzNaiSVgCM8Nhag",
-      "status": "scheduled",
-      "added_at": "2026-10-15",
       "updated_at": "2026-10-15"
     },
     {
@@ -4997,18 +4939,32 @@
       "updated_at": "2026-10-28"
     },
     {
-      "id": "cii-php-cybersecurity-webinar-2026",
+      "id": "cii-dx-edge-motor-simulation-webinar-2026",
       "geography": "IN",
       "category": "business",
-      "start_date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "name": "CII Webinar: PHP Under Attack — Is Your Website the Next Cyber Target?",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "name": "CII Dx-EDGE Webinar: Inside the Motor — What Traditional Design Methods Miss",
       "city": "Нью-Дели",
-      "description": "Профессиональный вебинар CII о киберрисках PHP-сайтов, типовых уязвимостях, защите приложений и снижении цифровых рисков бизнеса.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-11-01",
-      "updated_at": "2026-11-01"
+      "description": "Профессиональный вебинар CII о моделировании электродвигателей, выявлении ограничений традиционного проектирования и цифровой проверке инженерных решений.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000077438",
+      "status": "online",
+      "added_at": "2026-11-07",
+      "updated_at": "2026-11-07"
+    },
+    {
+      "id": "cii-iwn-tn-super-el-nino-webinar-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-19",
+      "name": "CII IWN Tamil Nadu Webinar: Super El Niño — Leading Through Climate Uncertainty",
+      "city": "Ченнаи",
+      "description": "Деловой вебинар CII Indian Women Network о лидерских решениях, устойчивости компаний и управлении климатическими рисками в условиях неопределённости.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000077308",
+      "status": "online",
+      "added_at": "2026-11-07",
+      "updated_at": "2026-11-07"
     },
     {
       "id": "cii-standards-conclave-visakhapatnam-2026",
