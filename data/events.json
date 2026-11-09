@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-07T03:00:21Z",
+  "generated_at": "2026-11-09T02:55:35Z",
   "horizon_days": 120,
   "events": [
     {
@@ -2003,21 +2003,6 @@
       "updated_at": "2026-09-26"
     },
     {
-      "id": "yoga-retreat-tuchkovo-kamalova-2026",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-11-06",
-      "end_date": "2026-11-08",
-      "name": "Йога-ретрит Маргариты Камаловой в Подмосковье",
-      "city": "Тучково, Московская область",
-      "venue": "Тучково СПА отель 4*",
-      "description": "Трёхдневный выездной семинар с двумя практиками йоги в день, программой для начального уровня и восстановительным отдыхом.",
-      "official_url": "https://www.yoga.ru/news/yoga_tours/russia/8000470.html",
-      "status": "scheduled",
-      "added_at": "2026-09-27",
-      "updated_at": "2026-09-27"
-    },
-    {
       "id": "isnacc-bhubaneswar-2027",
       "geography": "IN",
       "category": "business",
@@ -3263,21 +3248,6 @@
       "updated_at": "2026-10-08"
     },
     {
-      "id": "ethnomir-diwali-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-11-07",
-      "end_date": "2026-11-08",
-      "name": "Праздник «Дивали» в ЭТНОМИРе",
-      "city": "Петрово, Калужская область",
-      "venue": "Этнографический парк-музей «ЭТНОМИР»",
-      "description": "Тематические выходные, посвящённые индийскому празднику Дивали и культурным традициям Индии.",
-      "official_url": "https://www.ethnomir.ru/events-calendar/2026/noyabr/",
-      "status": "scheduled",
-      "added_at": "2026-10-09",
-      "updated_at": "2026-10-09"
-    },
-    {
       "id": "cii-aerospace-manufacturing-conference-vizag-2026",
       "geography": "IN",
       "category": "business",
@@ -3469,21 +3439,6 @@
       "status": "scheduled",
       "added_at": "2026-10-11",
       "updated_at": "2026-10-26"
-    },
-    {
-      "id": "taal-chakra-indian-dance-moscow-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "name": "Лекция-концерт «Ритм жизни — Таал Чакра»",
-      "city": "Москва",
-      "venue": "Государственный музей Востока",
-      "description": "Программа театра индийского танца «Таранг» о ритмических циклах и музыкально-танцевальных традициях Индии.",
-      "official_url": "https://orientmuseum.ru/lektoriy_2026-27/cikl_lekciy-koncertov_16._tanec__eto_put/ritm_zhizni__taal_chakra/index.php",
-      "status": "scheduled",
-      "added_at": "2026-10-11",
-      "updated_at": "2026-10-11"
     },
     {
       "id": "indian-folk-tribal-art-moscow-2026",
@@ -4147,20 +4102,6 @@
       "updated_at": "2026-10-16"
     },
     {
-      "id": "orientmuseum-indian-subscription-day-in-life-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "name": "«Один день из жизни индийца» — занятие в Музее Востока",
-      "city": "Москва",
-      "description": "Интерактивное музейное занятие для детей об образе жизни, традициях и повседневной культуре Индии.",
-      "official_url": "https://www.orientmuseum.ru/news/2026/avgust/urok_v_muzee/index.php",
-      "status": "scheduled",
-      "added_at": "2026-10-23",
-      "updated_at": "2026-10-23"
-    },
-    {
       "id": "orientmuseum-indian-subscription-gods-monsters-2026",
       "geography": "RU",
       "category": "culture",
@@ -4320,20 +4261,6 @@
       "status": "scheduled",
       "added_at": "2026-10-23",
       "updated_at": "2026-10-23"
-    },
-    {
-      "id": "diwali-hanoi-moscow-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-11-06",
-      "end_date": "2026-11-08",
-      "name": "Большой индийский фестиваль огней Дивали",
-      "city": "Москва",
-      "description": "Трёхдневный фестиваль индийской культуры с танцами, музыкой, йогой, пуджей, мехенди, традиционной живописью и кухней.",
-      "official_url": "https://incentra.ru/news/divali-2026-indiya-kotoraya-zazhigaet-serdtsa-.html",
-      "status": "scheduled",
-      "added_at": "2026-10-25",
-      "updated_at": "2026-10-25"
     },
     {
       "id": "yoga-kirill-chernoutsan-moscow-2026",
@@ -4787,36 +4714,6 @@
       "status": "scheduled",
       "added_at": "2026-10-27",
       "updated_at": "2026-10-27"
-    },
-    {
-      "id": "diwali-shine-moscow-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "name": "Фестиваль Дивали «Сияй!»",
-      "city": "Москва",
-      "venue": "Особняк «Йога Журнала», ул. Мантулинская, 5, стр. 6",
-      "description": "Фестиваль индийского праздника огней с лекциями об аюрведе и йоге, практиками, мантра-концертом, танцевальными и театральными выступлениями.",
-      "official_url": "https://www.mantrica.ru/festival_diwali",
-      "status": "scheduled",
-      "added_at": "2026-10-27",
-      "updated_at": "2026-10-27"
-    },
-    {
-      "id": "vipassana-retreat-kazan-november-2026",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-11-06",
-      "end_date": "2026-11-08",
-      "name": "Ретрит-випассана «Погружение в тишину» в Казани",
-      "city": "посёлок Октябрьский, Татарстан",
-      "venue": "«Домик в лесу», Зеленодольский район",
-      "description": "Трёхдневный ретрит с практиками медитации, хатха-йоги, пранаямы, мантры Ом и соблюдением обета молчания.",
-      "official_url": "https://www.oum.ru/regions/news/retrit-vipassana-pogruzhenie-v-tishinu-v-tatarstane/",
-      "status": "scheduled",
-      "added_at": "2026-10-28",
-      "updated_at": "2026-10-28"
     },
     {
       "id": "elecrama-greater-noida-2027",
@@ -5462,6 +5359,64 @@
       "status": "scheduled",
       "added_at": "2026-11-06",
       "updated_at": "2026-11-06"
+    },
+    {
+      "id": "docedge-kolkata-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-01",
+      "end_date": "2027-03-08",
+      "name": "Docedge Kolkata 2027 — Asian Forum for Documentary",
+      "city": "Калькутта",
+      "description": "Отраслевой форум документального кино с инкубационными лабораториями, питчингом проектов, встречами с продюсерами, фондами, фестивалями и потенциальными партнёрами.",
+      "official_url": "https://docresi.org/programmes/docedgekolkata",
+      "status": "scheduled",
+      "added_at": "2026-11-09",
+      "updated_at": "2026-11-09"
+    },
+    {
+      "id": "national-wash-conference-kolkata-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-08",
+      "end_date": "2027-03-09",
+      "name": "National WASH Conference 2027",
+      "city": "Калькутта",
+      "venue": "SPM-NIWAS Campus, Joka",
+      "description": "Национальная конференция по инновациям и практикам в водоснабжении, санитарии и управлении отходами для государства, инженеров, исследователей, предпринимателей и отраслевых организаций.",
+      "official_url": "https://www.spmniwas.in/events/conferences/upcoming/national-wash-conference-2027",
+      "status": "scheduled",
+      "added_at": "2026-11-09",
+      "updated_at": "2026-11-09"
+    },
+    {
+      "id": "gartner-cybersecurity-risk-summit-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-08",
+      "end_date": "2027-03-09",
+      "name": "Gartner Cybersecurity & Risk Management Summit 2027",
+      "city": "Мумбаи",
+      "venue": "Grand Hyatt Mumbai",
+      "description": "Деловой саммит для руководителей кибербезопасности и риск-менеджмента по AI governance, облачной и data security, устойчивости, стратегии и управлению угрозами.",
+      "official_url": "https://www.gartner.com/en/conferences/apac/security-risk-management-india",
+      "status": "scheduled",
+      "added_at": "2026-11-09",
+      "updated_at": "2026-11-09"
+    },
+    {
+      "id": "ieee-percom-goa-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-08",
+      "end_date": "2027-03-12",
+      "name": "IEEE PerCom 2027 — 25th International Conference on Pervasive Computing and Communications",
+      "city": "Гоа",
+      "description": "Международная очная конференция IEEE по pervasive computing, мобильным и распределённым системам, беспроводным сетям, сенсорам, ambient intelligence и smart devices.",
+      "official_url": "https://percom.org/",
+      "status": "scheduled",
+      "added_at": "2026-11-09",
+      "updated_at": "2026-11-09"
     }
   ]
 }
