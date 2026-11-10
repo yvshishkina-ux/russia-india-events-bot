@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T02:55:35Z",
+  "generated_at": "2026-11-10T03:00:11Z",
   "horizon_days": 120,
   "events": [
     {
@@ -5417,6 +5417,64 @@
       "status": "scheduled",
       "added_at": "2026-11-09",
       "updated_at": "2026-11-09"
+    },
+    {
+      "id": "cept-infrastructure-forum-ahmedabad-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-09",
+      "end_date": "2027-03-09",
+      "name": "Best Practices in Infrastructure — CEPT Forum 2027",
+      "city": "Ахмедабад",
+      "description": "Профессиональный форум CRDF и CEPT University для руководителей отрасли, заказчиков, подрядчиков и консультантов по проектированию, закупкам, качеству и жизненному циклу инфраструктуры.",
+      "official_url": "https://crdf.org.in/home",
+      "status": "scheduled",
+      "added_at": "2026-11-10",
+      "updated_at": "2026-11-10"
+    },
+    {
+      "id": "cept-infrastructure-conference-ahmedabad-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-10",
+      "end_date": "2027-03-10",
+      "name": "Best Practices in Infrastructure — CEPT Conference 2027",
+      "city": "Ахмедабад",
+      "venue": "CEPT University",
+      "description": "Отраслевая конференция CRDF и CEPT University с кейсами крупных инфраструктурных проектов, практиками закупок, распределения рисков, проектирования, строительства и контроля качества.",
+      "official_url": "https://crdf.org.in/home",
+      "status": "scheduled",
+      "added_at": "2026-11-10",
+      "updated_at": "2026-11-10"
+    },
+    {
+      "id": "bharat-treasury-khazana-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-10",
+      "end_date": "2027-03-10",
+      "name": "Bharat Treasury Khazana Conference 2027",
+      "city": "Мумбаи",
+      "description": "Профессиональная конференция для CFO и руководителей казначейств по ликвидности, платежам, рискам, капиталу, технологиям, финансированию и трансформации финансовой функции.",
+      "official_url": "https://treasury-management.com/events/treasury-khazana-conference-2027",
+      "status": "scheduled",
+      "added_at": "2026-11-10",
+      "updated_at": "2026-11-10"
+    },
+    {
+      "id": "icladis-sivakasi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-10",
+      "end_date": "2027-03-12",
+      "name": "ICLADIS 2027 — International Conference on Linear Algebra and Discrete Mathematics for Data-Driven Intelligent Systems",
+      "city": "Сивакаси",
+      "venue": "Ayya Nadar Janaki Ammal College",
+      "description": "Международная гибридная конференция по линейной алгебре, графам, оптимизации, data science, машинному обучению и интеллектуальным системам с участием исследователей и отраслевых экспертов.",
+      "official_url": "https://mathsevents.anjac.edu.in/icladis2027/",
+      "status": "scheduled",
+      "added_at": "2026-11-10",
+      "updated_at": "2026-11-10"
     }
   ]
 }
