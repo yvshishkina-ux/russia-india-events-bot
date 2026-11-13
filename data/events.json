@@ -1,22 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T03:03:09Z",
+  "generated_at": "2026-11-13T02:58:56Z",
   "horizon_days": 120,
   "events": [
-    {
-      "id": "khimia-2026-india-pavilion-2026-11-09-419204aae1",
-      "geography": "RU",
-      "category": "business",
-      "start_date": "2026-11-09",
-      "end_date": "2026-11-12",
-      "name": "KHIMIA 2026 — India Pavilion",
-      "city": "Москва",
-      "description": "Официальный индийский павильон CHEMEXCIL: базовая химия, красители, intermediates, косметические ингредиенты и смежные направления.",
-      "official_url": "https://chemexcil.in/circulars/india-pavilion-at-khimia-2026-timiryazev-center--hall--16--moscow--russia-9-12th-november--2026/6666/52c55bccb8ad0340e5de62bde7ba2214.html",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
     {
       "id": "mitex-2026-fieo-2026-11-10-db34bb40cf",
       "geography": "RU",
@@ -3694,20 +3680,6 @@
       "updated_at": "2026-10-15"
     },
     {
-      "id": "cii-defence-systems-simulation-webinar-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-12",
-      "end_date": "2026-11-12",
-      "name": "CII Webinar on Engineering for the Unpredictable: Validating Defence Systems Under Extreme Conditions",
-      "city": "Нью-Дели",
-      "description": "Вебинар об инженерном моделировании и цифровой проверке оборонных систем в экстремальных и неопределённых условиях.",
-      "official_url": "https://www.cii.in/Events.aspx?enc=5Qj31akIlo6Y7nuU38ndAv0e2tzdGabIAHEu8jY8LFNac8gVOUzNaiSVgCM8Nhag",
-      "status": "online",
-      "added_at": "2026-10-15",
-      "updated_at": "2026-10-15"
-    },
-    {
       "id": "cii-drone-virtual-engineering-webinar-2026",
       "geography": "IN",
       "category": "business",
@@ -5171,20 +5143,6 @@
       "updated_at": "2026-11-04"
     },
     {
-      "id": "cii-iit-madras-ai-data-analytics-workshop-bengaluru-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-12",
-      "end_date": "2026-11-12",
-      "name": "IIT Madras–CII Workshop on Artificial Intelligence and Data Analytics for Industries",
-      "city": "Бенгалуру",
-      "description": "Профессиональный семинар CII и IIT Madras по промышленному применению искусственного интеллекта, аналитики данных и цифровых решений.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-11-06",
-      "updated_at": "2026-11-06"
-    },
-    {
       "id": "cii-varanasi-government-incentives-subsidies-workshop-2026",
       "geography": "IN",
       "category": "business",
@@ -5610,6 +5568,66 @@
       "status": "scheduled",
       "added_at": "2026-11-12",
       "updated_at": "2026-11-12"
+    },
+    {
+      "id": "medical-fair-india-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-13",
+      "end_date": "2027-03-15",
+      "name": "Medical Fair India 2027 — New Delhi",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam, Halls 4 & 5",
+      "description": "Международная выставка и конференция медицинских технологий, оборудования для больниц, лабораторий, реабилитации и цифрового здравоохранения.",
+      "official_url": "https://www.medicalfair-india.com/visitor-at-glance",
+      "status": "scheduled",
+      "added_at": "2026-11-13",
+      "updated_at": "2026-11-13"
+    },
+    {
+      "id": "iioo-expo-navi-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-13",
+      "end_date": "2027-03-15",
+      "name": "India International Ophthalmic Optics Expo 2027",
+      "city": "Нави-Мумбаи",
+      "venue": "CIDCO Exhibition Centre",
+      "description": "Отраслевая выставка оптики, очков и офтальмологических товаров для брендов, производителей, дистрибьюторов и закупщиков.",
+      "official_url": "https://iiooexpo.com/",
+      "status": "scheduled",
+      "added_at": "2026-11-13",
+      "updated_at": "2026-11-13"
+    },
+    {
+      "id": "comp-sif-bengaluru-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-12",
+      "end_date": "2027-03-13",
+      "name": "Comp-SIF 2027 — Computing for Sustainability and Intelligent Future",
+      "city": "Бенгалуру",
+      "venue": "BMS Institute of Technology & Management",
+      "description": "Конференция исследователей и индустрии по искусственному интеллекту, устойчивым вычислениям, интеллектуальным системам и прикладным технологиям.",
+      "official_url": "https://bmsit.ac.in/compsif/",
+      "status": "scheduled",
+      "added_at": "2026-11-13",
+      "updated_at": "2026-11-13"
+    },
+    {
+      "id": "labour-history-nlsiu-bengaluru-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-11",
+      "end_date": "2027-03-13",
+      "name": "14th International Conference on Labour History",
+      "city": "Бенгалуру",
+      "venue": "National Law School of India University",
+      "description": "Международная конференция по труду, технологиям, правовому регулированию, миграции и социальным изменениям для исследователей и специалистов.",
+      "official_url": "https://www.nls.ac.in/news-events/call-for-papers-14th-international-conference-on-labour-history-11-13-march-2027/",
+      "status": "scheduled",
+      "added_at": "2026-11-13",
+      "updated_at": "2026-11-13"
     }
   ]
 }
