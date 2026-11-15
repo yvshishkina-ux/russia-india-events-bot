@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T03:01:23Z",
+  "generated_at": "2026-11-15T03:03:38Z",
   "horizon_days": 120,
   "events": [
     {
@@ -4193,20 +4193,6 @@
       "updated_at": "2026-10-23"
     },
     {
-      "id": "yoga-kirill-chernoutsan-moscow-2026",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "name": "Мастер-класс Кирилла Черноуцана по йоге",
-      "city": "Москва",
-      "description": "Практический мастер-класс в центре Yoga Practika «Чистые пруды».",
-      "official_url": "https://www.yoga.ru/news/news/master_klassy_i_seminary/8013239.html",
-      "status": "scheduled",
-      "added_at": "2026-10-25",
-      "updated_at": "2026-10-25"
-    },
-    {
       "id": "yoga-natalia-dzygar-moscow-2026-11-15",
       "geography": "RU",
       "category": "practices",
@@ -4752,20 +4738,6 @@
       "updated_at": "2026-11-07"
     },
     {
-      "id": "cii-iwn-business-profit-accelerator-trichy-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "name": "CII-IWN Trichy Session on Business Profit Accelerator",
-      "city": "Тируччираппалли",
-      "description": "Интерактивная деловая сессия CII Indian Women Network по дизайну бизнеса, росту прибыли и практическим инструментам для предпринимателей.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-11-01",
-      "updated_at": "2026-11-01"
-    },
-    {
       "id": "cii-bio-energy-summit-new-delhi-2026",
       "geography": "IN",
       "category": "business",
@@ -4882,20 +4854,6 @@
       "status": "scheduled",
       "added_at": "2026-11-02",
       "updated_at": "2026-11-02"
-    },
-    {
-      "id": "cii-ai-business-impact-ernakulam-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-13",
-      "end_date": "2026-11-14",
-      "name": "CII Kerala Session: chAI pe Charcha — From AI Curiosity to Business Impact",
-      "city": "Эрнакулам",
-      "description": "Интерактивная деловая сессия CII о переходе от экспериментов с искусственным интеллектом к практическому внедрению и измеримому эффекту для бизнеса.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-11-03",
-      "updated_at": "2026-11-03"
     },
     {
       "id": "cii-iso-internal-auditor-masterclass-november-2026",
@@ -5690,6 +5648,64 @@
       "status": "scheduled",
       "added_at": "2026-11-14",
       "updated_at": "2026-11-14"
+    },
+    {
+      "id": "boj-jewellery-show-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-15",
+      "end_date": "2027-03-17",
+      "name": "The BOJ Show — Business of Jewellery 2027",
+      "city": "Нью-Дели",
+      "venue": "Taj Palace",
+      "description": "Профессиональная B2B-выставка ювелирных изделий для производителей, дизайнеров, розничных сетей, дистрибьюторов и закупщиков.",
+      "official_url": "https://thebojshow.com/contact",
+      "status": "scheduled",
+      "added_at": "2026-11-15",
+      "updated_at": "2026-11-15"
+    },
+    {
+      "id": "iimb-agentic-ai-business-programme-march-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-15",
+      "end_date": "2027-03-19",
+      "name": "IIM Bangalore Executive Programme: Generative AI and Agentic AI with Business Applications",
+      "city": "Бенгалуру",
+      "venue": "IIM Bangalore Campus",
+      "description": "Очная программа для руководителей и специалистов по внедрению генеративного и агентного ИИ в бизнес-процессы, продукты и корпоративную стратегию.",
+      "official_url": "https://eep.iimb.ac.in/course/generative-ai-and-agentic-ai-with-business-applications-batch-09/",
+      "status": "scheduled",
+      "added_at": "2026-11-15",
+      "updated_at": "2026-11-15"
+    },
+    {
+      "id": "cii-iwn-legacy-trail-mysuru-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-22",
+      "name": "CII IWN Southern Region Legacy Trail to Mysore",
+      "city": "Майсур",
+      "description": "Деловая программа CII Indian Women Network для обмена предпринимательским опытом и развития профессиональных связей в Южной Индии.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076820",
+      "status": "scheduled",
+      "added_at": "2026-11-15",
+      "updated_at": "2026-11-15"
+    },
+    {
+      "id": "cii-kerala-health-tourism-kochi-2026",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-21",
+      "name": "CII Kerala Health Tourism 2026",
+      "city": "Кочи",
+      "description": "Отраслевая программа CII Kerala по медицинскому и оздоровительному туризму, партнёрствам клиник, туристического бизнеса и поставщиков услуг.",
+      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000077202",
+      "status": "scheduled",
+      "added_at": "2026-11-15",
+      "updated_at": "2026-11-15"
     }
   ]
 }
