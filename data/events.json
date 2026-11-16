@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-15T03:03:38Z",
+  "generated_at": "2026-11-16T03:07:24Z",
   "horizon_days": 120,
   "events": [
     {
@@ -4032,20 +4032,6 @@
       "updated_at": "2026-10-16"
     },
     {
-      "id": "orientmuseum-indian-subscription-gods-monsters-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "name": "«В мире богов и чудовищ» — занятие в Музее Востока",
-      "city": "Москва",
-      "description": "Интерактивное музейное занятие о героях, божествах и фантастических существах в искусстве и мифологии Индии.",
-      "official_url": "https://www.orientmuseum.ru/news/2026/avgust/urok_v_muzee/index.php",
-      "status": "scheduled",
-      "added_at": "2026-10-23",
-      "updated_at": "2026-10-23"
-    },
-    {
       "id": "orientmuseum-indian-subscription-myth-display-2026",
       "geography": "RU",
       "category": "culture",
@@ -4191,20 +4177,6 @@
       "status": "scheduled",
       "added_at": "2026-10-23",
       "updated_at": "2026-10-23"
-    },
-    {
-      "id": "yoga-natalia-dzygar-moscow-2026-11-15",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "name": "Мастер-класс Натальи Дзыгар по йоге — 15 ноября",
-      "city": "Москва",
-      "description": "Практический мастер-класс в центре Yoga Practika «Красная Пресня».",
-      "official_url": "https://www.yoga.ru/news/news/master_klassy_i_seminary/8016448.html",
-      "status": "scheduled",
-      "added_at": "2026-10-25",
-      "updated_at": "2026-10-25"
     },
     {
       "id": "yoga-natalia-dzygar-moscow-2026-11-22",
@@ -4761,21 +4733,6 @@
       "city": "Нью-Дели",
       "description": "Отраслевая сессия по предельно допустимым остаточным уровням в чае, требованиям рынков, качеству и экспортной конкурентоспособности.",
       "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-11-01",
-      "updated_at": "2026-11-01"
-    },
-    {
-      "id": "delhi-bazar-moscow-november-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-11-13",
-      "end_date": "2026-11-15",
-      "name": "Delhi базар — ноябрь 2026",
-      "city": "Москва",
-      "venue": "Дизайн-завод «Флакон»",
-      "description": "Индийский маркет и фудкорт с товарами, национальной кухней, музыкой, танцами, лекциями и кулинарными мастер-классами.",
-      "official_url": "https://delhibazar.ru/",
       "status": "scheduled",
       "added_at": "2026-11-01",
       "updated_at": "2026-11-01"
@@ -5706,6 +5663,51 @@
       "status": "scheduled",
       "added_at": "2026-11-15",
       "updated_at": "2026-11-15"
+    },
+    {
+      "id": "bflex-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-15",
+      "end_date": "2027-03-16",
+      "name": "Bharat Footwear and Leather Expo 2027",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Государственно поддерживаемая B2B-выставка обуви, кожгалантереи, одежды, компонентов и материалов для международных покупателей, производителей и экспортёров.",
+      "official_url": "https://bharatfootwearleatherexpo.com/",
+      "status": "scheduled",
+      "added_at": "2026-11-16",
+      "updated_at": "2026-11-16"
+    },
+    {
+      "id": "milipol-india-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-16",
+      "end_date": "2027-03-18",
+      "name": "Milipol India 2027",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam, Hall 3",
+      "description": "Международная профессиональная выставка и конференция по внутренней безопасности, правоохранительным технологиям, защите инфраструктуры и кибербезопасности.",
+      "official_url": "https://www.milipolindia.com/en/practical-info/dates-opening-times-venue",
+      "status": "scheduled",
+      "added_at": "2026-11-16",
+      "updated_at": "2026-11-16"
+    },
+    {
+      "id": "lubeinx-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-16",
+      "end_date": "2027-03-18",
+      "name": "LUBEiNX 2027 — Lubricant India Expo & Summit",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Профессиональная выставка и саммит по смазочным материалам, базовым маслам, присадкам, промышленным жидкостям, технологиям производства и отраслевой торговле.",
+      "official_url": "https://lubricantindia.com/show-information/",
+      "status": "scheduled",
+      "added_at": "2026-11-16",
+      "updated_at": "2026-11-16"
     }
   ]
 }
