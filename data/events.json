@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T03:07:24Z",
+  "generated_at": "2026-11-17T03:03:00Z",
   "horizon_days": 120,
   "events": [
     {
@@ -5708,6 +5708,64 @@
       "status": "scheduled",
       "added_at": "2026-11-16",
       "updated_at": "2026-11-16"
+    },
+    {
+      "id": "clean-india-show-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-19",
+      "name": "Clean India Show 2027 и Laundrex India",
+      "city": "Мумбаи",
+      "venue": "Bombay Exhibition Centre, Hall 6",
+      "description": "Профессиональная выставка технологий уборки, гигиены, промышленной чистки и ухода за бельём; параллельная экспозиция Laundrex India посвящена прачечному оборудованию.",
+      "official_url": "https://cleanindiashow.in.messefrankfurt.com/mumbai/en/facts-figures.html",
+      "status": "scheduled",
+      "added_at": "2026-11-17",
+      "updated_at": "2026-11-17"
+    },
+    {
+      "id": "vaccines-world-summit-hyderabad-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-18",
+      "name": "Vaccines World Summit 2027",
+      "city": "Хайдарабад",
+      "description": "Отраслевой саммит по разработке, производству и дистрибуции вакцин, партнёрствам и доступности иммунизации.",
+      "official_url": "https://www.imapac.com/events/vaccines-world-summit-2027",
+      "status": "scheduled",
+      "added_at": "2026-11-17",
+      "updated_at": "2026-11-17"
+    },
+    {
+      "id": "biologics-festival-india-hyderabad-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-18",
+      "name": "Biologics Festival India 2027",
+      "city": "Хайдарабад",
+      "description": "Конференция биофармацевтической отрасли о разработке и масштабировании биопрепаратов, производстве, регулировании и коммерциализации.",
+      "official_url": "https://www.imapac.com/events/biologics-festival-india-2027",
+      "status": "scheduled",
+      "added_at": "2026-11-17",
+      "updated_at": "2026-11-17"
+    },
+    {
+      "id": "cybertech-asia-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-18",
+      "name": "Cybertech Asia Mumbai 2027",
+      "city": "Мумбаи",
+      "venue": "Jio World Convention Centre, BKC",
+      "description": "Международная конференция и выставка по кибербезопасности, искусственному интеллекту и цифровым технологиям с деловыми встречами и демонстрацией решений.",
+      "official_url": "https://www.cybertechasia.com/",
+      "status": "scheduled",
+      "added_at": "2026-11-17",
+      "updated_at": "2026-11-17"
     }
   ]
 }
