@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T03:03:00Z",
+  "generated_at": "2026-11-18T02:58:15Z",
   "horizon_days": 120,
   "events": [
     {
@@ -4361,20 +4361,6 @@
       "updated_at": "2026-10-25"
     },
     {
-      "id": "cii-innovation-kolkata-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "name": "CII Innovation 2026 — Eastern Region",
-      "city": "Калькутта",
-      "description": "Региональная деловая конференция CII по инновациям, технологиям, промышленной трансформации и сотрудничеству бизнеса.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076598",
-      "status": "scheduled",
-      "added_at": "2026-10-26",
-      "updated_at": "2026-10-26"
-    },
-    {
       "id": "yoga-special-programs-novosibirsk-november-2026",
       "geography": "RU",
       "category": "practices",
@@ -4708,34 +4694,6 @@
       "status": "online",
       "added_at": "2026-11-07",
       "updated_at": "2026-11-07"
-    },
-    {
-      "id": "cii-bio-energy-summit-new-delhi-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "name": "14th CII Bio-Energy Summit",
-      "city": "Нью-Дели",
-      "description": "Отраслевой саммит CII по биоэнергетике, технологиям, инвестициям, сырьевым цепочкам, политике и промышленным проектам.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-11-01",
-      "updated_at": "2026-11-01"
-    },
-    {
-      "id": "cii-tea-mrl-brainstorming-new-delhi-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "name": "CII Brainstorming Session on MRLs in Tea",
-      "city": "Нью-Дели",
-      "description": "Отраслевая сессия по предельно допустимым остаточным уровням в чае, требованиям рынков, качеству и экспортной конкурентоспособности.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-11-01",
-      "updated_at": "2026-11-01"
     },
     {
       "id": "icbeos-kolkata-2027",
@@ -5766,6 +5724,95 @@
       "status": "scheduled",
       "added_at": "2026-11-17",
       "updated_at": "2026-11-17"
+    },
+    {
+      "id": "ihgf-delhi-fair-spring-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-15",
+      "end_date": "2027-03-19",
+      "name": "63rd IHGF Delhi Fair — Spring 2027",
+      "city": "Грейтер-Нойда",
+      "venue": "India Expo Centre & Mart",
+      "description": "Международная B2B-ярмарка индийских ремёсел, товаров для дома, мебели, текстиля, подарков, модных аксессуаров и интерьерных решений для закупщиков.",
+      "official_url": "https://ihgfdelhifair.in/",
+      "status": "scheduled",
+      "added_at": "2026-11-18",
+      "updated_at": "2026-11-18"
+    },
+    {
+      "id": "gbta-india-conference-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-18",
+      "end_date": "2027-03-19",
+      "name": "GBTA India Conference 2027",
+      "city": "Мумбаи",
+      "venue": "Fairmont Mumbai",
+      "description": "Отраслевая конференция по корпоративным поездкам с деловой программой, выставкой поставщиков, практическими сессиями и профессиональным нетворкингом.",
+      "official_url": "https://gbta.org/gbta-india-conference/",
+      "status": "scheduled",
+      "added_at": "2026-11-18",
+      "updated_at": "2026-11-18"
+    },
+    {
+      "id": "icpedc-chennai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-18",
+      "end_date": "2027-03-19",
+      "name": "8th International Conference on Power and Embedded Drive Control — ICPEDC 2027",
+      "city": "Ченнаи",
+      "venue": "Sri Sivasubramaniya Nadar College of Engineering",
+      "description": "Международная конференция по силовой электронике, электроприводу, энергосистемам, накопителям энергии, промышленной автоматизации и встроенному управлению.",
+      "official_url": "https://icpedc2027.in/",
+      "status": "scheduled",
+      "added_at": "2026-11-18",
+      "updated_at": "2026-11-18"
+    },
+    {
+      "id": "raisina-dialogue-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-18",
+      "end_date": "2027-03-20",
+      "name": "Raisina Dialogue 2027",
+      "city": "Нью-Дели",
+      "description": "Международная конференция по геополитике и геоэкономике с участием государственных деятелей, бизнеса, экспертов и исследователей; организаторы — ORF и МИД Индии.",
+      "official_url": "https://raisinadialogue.org/raisina-dialogue/",
+      "status": "scheduled",
+      "added_at": "2026-11-18",
+      "updated_at": "2026-11-18"
+    },
+    {
+      "id": "techedu-india-summit-mumbai-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-18",
+      "end_date": "2027-03-18",
+      "name": "TechEDU India Summit 2027",
+      "city": "Мумбаи",
+      "venue": "NESCO",
+      "description": "Деловой саммит и выставка образовательных технологий, искусственного интеллекта, цифрового обучения, управления образовательными учреждениями и подготовки кадров.",
+      "official_url": "https://education.economictimes.indiatimes.com/techedu",
+      "status": "scheduled",
+      "added_at": "2026-11-18",
+      "updated_at": "2026-11-18"
+    },
+    {
+      "id": "ic4-indore-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-18",
+      "end_date": "2027-03-20",
+      "name": "3rd International Conference on Computer, Communication and Control — IC4 2027",
+      "city": "Индаур",
+      "venue": "Medi-Caps University",
+      "description": "Международная конференция по компьютерным системам, связи, управлению, электронике, информационным технологиям, приборостроению и робототехнике.",
+      "official_url": "https://ic4.medicaps.ac.in/",
+      "status": "scheduled",
+      "added_at": "2026-11-18",
+      "updated_at": "2026-11-18"
     }
   ]
 }
