@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-21T02:57:56Z",
+  "generated_at": "2026-11-24T03:24:15Z",
   "horizon_days": 120,
   "events": [
     {
@@ -31,62 +31,6 @@
       "status": "scheduled",
       "added_at": "2026-09-05",
       "updated_at": "2026-10-27"
-    },
-    {
-      "id": "4th-cii-nexgen-mobility-2026-2026-11-19-9c6c18e20b",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-21",
-      "name": "4th CII NexGen Mobility 2026",
-      "city": "Пуна",
-      "description": "Отраслевая B2B-площадка по мобильности, автомобильным технологиям и новым транспортным решениям.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "acetech-mumbai-2026-2026-11-19-045382cfe3",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-22",
-      "name": "ACETECH Mumbai 2026",
-      "city": "Мумбаи",
-      "description": "Крупная B2B-выставка архитектуры, строительства, материалов, инженерных систем и интерьерных решений.",
-      "official_url": "https://acetechexpo.com/",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "cii-surface-coating-show-2026-2026-11-19-c93182f557",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-21",
-      "name": "CII Surface Coating Show 2026",
-      "city": "Пуна",
-      "description": "Промышленная B2B-выставка технологий покрытий, материалов, оборудования и обработки поверхностей.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
-    },
-    {
-      "id": "cii-agrotech-india-2026-2026-11-20-fbcd15c8df",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-23",
-      "name": "CII AgroTech India 2026",
-      "city": "Чандигарх",
-      "description": "Крупная агротехнологическая выставка по сельхозтехнике, продовольствию, переработке и агробизнесу.",
-      "official_url": "https://www.cii.in/Events.aspx",
-      "status": "scheduled",
-      "added_at": "2026-09-05",
-      "updated_at": "2026-09-05"
     },
     {
       "id": "cphi-india-2026-2026-11-23-0a15af6a75",
@@ -1919,21 +1863,6 @@
       "updated_at": "2026-09-27"
     },
     {
-      "id": "yoga-journal-conference-moscow-2026",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-22",
-      "name": "27-я Международная конференция Yoga Journal",
-      "city": "Москва",
-      "venue": "Центр йоги «Прана», Старопетровский проезд",
-      "description": "Двухдневная конференция по йоге, медитации и смежным практикам с 70 преподавателями и экспертами, лекциями и практическими занятиями.",
-      "official_url": "https://yjconf.ru/",
-      "status": "scheduled",
-      "added_at": "2026-09-28",
-      "updated_at": "2026-09-28"
-    },
-    {
       "id": "blue-economy-conference-chennai-2027",
       "geography": "IN",
       "category": "business",
@@ -2545,21 +2474,6 @@
       "status": "scheduled",
       "added_at": "2026-10-03",
       "updated_at": "2026-10-03"
-    },
-    {
-      "id": "suscon-iim-shillong-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-21",
-      "name": "SUSCON XIII — 13th International Conference on Sustainability",
-      "city": "Шиллонг",
-      "venue": "Indian Institute of Management Shillong",
-      "description": "Международная конференция по климату, circular economy и социальной справедливости для бизнеса, государства, исследователей и общественных организаций.",
-      "official_url": "https://www.iimshillong.ac.in/events-and-conferences/conferences/suscon",
-      "status": "scheduled",
-      "added_at": "2026-10-04",
-      "updated_at": "2026-10-04"
     },
     {
       "id": "saras-food-festival-new-delhi-2026",
@@ -3876,20 +3790,6 @@
       "updated_at": "2026-10-16"
     },
     {
-      "id": "orientmuseum-indian-subscription-myth-display-2026",
-      "geography": "RU",
-      "category": "culture",
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "name": "«Индия в музее: от мифа до витрины»",
-      "city": "Москва",
-      "description": "Интерактивная экскурсия по индийской коллекции Музея Востока, связывающая мифологические сюжеты с музейными предметами.",
-      "official_url": "https://www.orientmuseum.ru/news/2026/avgust/urok_v_muzee/index.php",
-      "status": "scheduled",
-      "added_at": "2026-10-23",
-      "updated_at": "2026-10-23"
-    },
-    {
       "id": "orientmuseum-indian-subscription-global-culture-2026",
       "geography": "RU",
       "category": "culture",
@@ -4021,20 +3921,6 @@
       "status": "scheduled",
       "added_at": "2026-10-23",
       "updated_at": "2026-10-23"
-    },
-    {
-      "id": "yoga-natalia-dzygar-moscow-2026-11-22",
-      "geography": "RU",
-      "category": "practices",
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "name": "Мастер-класс Натальи Дзыгар по йоге — 22 ноября",
-      "city": "Москва",
-      "description": "Вторая отдельная встреча практического мастер-класса в центре Yoga Practika «Красная Пресня».",
-      "official_url": "https://www.yoga.ru/news/news/master_klassy_i_seminary/8016448.html",
-      "status": "scheduled",
-      "added_at": "2026-10-25",
-      "updated_at": "2026-10-25"
     },
     {
       "id": "aioc-gandhinagar-2027",
@@ -5271,34 +5157,6 @@
       "updated_at": "2026-11-15"
     },
     {
-      "id": "cii-iwn-legacy-trail-mysuru-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-22",
-      "name": "CII IWN Southern Region Legacy Trail to Mysore",
-      "city": "Майсур",
-      "description": "Деловая программа CII Indian Women Network для обмена предпринимательским опытом и развития профессиональных связей в Южной Индии.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000076820",
-      "status": "scheduled",
-      "added_at": "2026-11-15",
-      "updated_at": "2026-11-15"
-    },
-    {
-      "id": "cii-kerala-health-tourism-kochi-2026",
-      "geography": "IN",
-      "category": "business",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-21",
-      "name": "CII Kerala Health Tourism 2026",
-      "city": "Кочи",
-      "description": "Отраслевая программа CII Kerala по медицинскому и оздоровительному туризму, партнёрствам клиник, туристического бизнеса и поставщиков услуг.",
-      "official_url": "https://cam.mycii.in/OR/EventDetailOR.html?id=E000077202",
-      "status": "scheduled",
-      "added_at": "2026-11-15",
-      "updated_at": "2026-11-15"
-    },
-    {
       "id": "bflex-new-delhi-2027",
       "geography": "IN",
       "category": "business",
@@ -5608,6 +5466,111 @@
       "status": "scheduled",
       "added_at": "2026-11-21",
       "updated_at": "2026-11-21"
+    },
+    {
+      "id": "convergence-india-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "name": "34th Convergence India Expo 2027",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Международная технологическая выставка и конференция по телекоммуникациям, 5G/6G, цифровой инфраструктуре, IoT, финтеху, кибербезопасности и медиатехнологиям.",
+      "official_url": "https://www.convergenceindia.org/",
+      "status": "scheduled",
+      "added_at": "2026-11-24",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "id": "ai-bharat-expo-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "name": "AI Bharat Expo 2027",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Профессиональная выставка и конференция по искусственному интеллекту, корпоративным AI-решениям, автоматизации, данным, вычислительной инфраструктуре и отраслевым внедрениям.",
+      "official_url": "https://www.aibharatexpo.com/exhibition-venue-and-dates.aspx",
+      "status": "scheduled",
+      "added_at": "2026-11-24",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "id": "startup-hub-expo-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "name": "Startup Hub Expo 2027",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Выставка технологических стартапов, инвесторов, корпораций и институтов развития с демонстрациями продуктов, деловыми встречами и программой для основателей.",
+      "official_url": "https://www.startuphubexpo.com/",
+      "status": "scheduled",
+      "added_at": "2026-11-24",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "id": "indiasoft-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "name": "INDIASOFT 2027",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Международная B2B-выставка индийской IT-индустрии для экспортёров программного обеспечения, зарубежных покупателей, технологических компаний и партнёров.",
+      "official_url": "https://indiasoft.org/venue/",
+      "status": "scheduled",
+      "added_at": "2026-11-24",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "id": "india-electronics-expo-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "name": "India Electronics Expo 2027",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Международная B2B-выставка электроники, компонентов, телекоммуникационного оборудования, встраиваемых систем и производственных решений для экспортного сотрудничества.",
+      "official_url": "https://www.indiaelectronicsexpo.com/venue/",
+      "status": "scheduled",
+      "added_at": "2026-11-24",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "id": "security-surveillance-expo-new-delhi-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-25",
+      "name": "Security & Surveillance Expo 2027",
+      "city": "Нью-Дели",
+      "venue": "Bharat Mandapam",
+      "description": "Профессиональная выставка систем безопасности, видеонаблюдения, контроля доступа, киберфизической защиты, интеллектуальных зданий и инфраструктурных решений.",
+      "official_url": "https://www.securitysurveillanceexpo.com/exhibition-venue-and-dates.aspx",
+      "status": "scheduled",
+      "added_at": "2026-11-24",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "id": "diemex-pune-2027",
+      "geography": "IN",
+      "category": "business",
+      "start_date": "2027-03-24",
+      "end_date": "2027-03-26",
+      "name": "DIEMEX 2027",
+      "city": "Пуна",
+      "venue": "Auto Cluster Exhibition Centre",
+      "description": "Специализированная B2B-выставка пресс-форм, штампов, оснастки, станков, аддитивного производства и технологий прецизионной обработки.",
+      "official_url": "https://www.diemex.in/why-visit",
+      "status": "scheduled",
+      "added_at": "2026-11-24",
+      "updated_at": "2026-11-24"
     }
   ]
 }
